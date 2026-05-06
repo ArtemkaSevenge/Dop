@@ -1,6 +1,6 @@
 {
     "settings": {
-        "icon_size": 200,
+        "icon_size": 120,
         "max_columns": 30
     },
     "atlases_urls": [
