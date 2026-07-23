@@ -863,7 +863,7 @@
             "atlas": 12,
             "index": 14
         },
-        "Бронежилет «Burger King г:вно»": {
+        "Бронежилет «Burger King г*вно»": {
             "atlas": 13,
             "index": 0
         },
@@ -1847,7 +1847,7 @@
             "atlas": 29,
             "index": 5
         },
-        "Как:шка «Burger King»": {
+        "Как*шка «Burger King»": {
             "atlas": 29,
             "index": 6
         },
@@ -2011,7 +2011,7 @@
             "atlas": 32,
             "index": 1
         },
-        "Корона «Burger King г:вн»": {
+        "Корона «Burger King г*вн»": {
             "atlas": 32,
             "index": 2
         },
