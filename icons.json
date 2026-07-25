@@ -81,7 +81,45 @@
         "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_74.png",
         "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_75.png",
         "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_76.png",
-        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_77.png"
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_77.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_78.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_79.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_80.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_81.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_82.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_83.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_84.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_85.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_86.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_87.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_88.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_89.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_90.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_91.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_92.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_93.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_94.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_95.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_96.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_97.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_98.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_99.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_100.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_101.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_102.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_103.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_104.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_105.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_106.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_107.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_108.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_109.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_110.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_111.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_112.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_113.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_114.png",
+        "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/main/items_atlas_115.png"
     ],
     "items": {
         "60 патронов Micro SMG/UZI": {
@@ -125,4596 +163,4596 @@
             "index": 9
         },
         "BMW M5 Stingray": {
-            "atlas": 0,
-            "index": 10
+            "atlas": 1,
+            "index": 0
         },
         "BMW X5 F85": {
-            "atlas": 0,
-            "index": 11
+            "atlas": 1,
+            "index": 1
         },
         "BMW X7 Lumma": {
-            "atlas": 0,
-            "index": 12
+            "atlas": 1,
+            "index": 2
         },
         "BMW XM Mansory": {
-            "atlas": 0,
-            "index": 13
+            "atlas": 1,
+            "index": 3
         },
         "BMW XM Off-road": {
-            "atlas": 0,
-            "index": 14
+            "atlas": 1,
+            "index": 4
         },
         "BMXer": {
             "atlas": 1,
-            "index": 0
+            "index": 5
         },
         "BRABUS ROCKET GTS": {
             "atlas": 1,
-            "index": 1
+            "index": 6
         },
         "BUGATTI Bolide": {
             "atlas": 1,
-            "index": 2
+            "index": 7
         },
         "Ballas": {
             "atlas": 1,
-            "index": 3
+            "index": 8
         },
         "Bathory": {
             "atlas": 1,
-            "index": 4
-        },
-        "BayBack(Задний бампер) (TurboS 1980)": {
-            "atlas": 1,
-            "index": 5
-        },
-        "BayBack(Передний бампер) (TurboS 1980)": {
-            "atlas": 1,
-            "index": 6
-        },
-        "BayHood(Капот) (TurboS 1980)": {
-            "atlas": 1,
-            "index": 7
-        },
-        "BayRoof(Крыша) (TurboS 1980)": {
-            "atlas": 1,
-            "index": 8
-        },
-        "BaySides(Боковые юбки) (TurboS 1980)": {
-            "atlas": 1,
             "index": 9
         },
+        "BayBack(Задний бампер) (TurboS 1980)": {
+            "atlas": 2,
+            "index": 0
+        },
+        "BayBack(Передний бампер) (TurboS 1980)": {
+            "atlas": 2,
+            "index": 1
+        },
+        "BayHood(Капот) (TurboS 1980)": {
+            "atlas": 2,
+            "index": 2
+        },
+        "BayRoof(Крыша) (TurboS 1980)": {
+            "atlas": 2,
+            "index": 3
+        },
+        "BaySides(Боковые юбки) (TurboS 1980)": {
+            "atlas": 2,
+            "index": 4
+        },
         "BaySmoke(Выхлоп) (TurboS 1980)": {
-            "atlas": 1,
-            "index": 10
+            "atlas": 2,
+            "index": 5
         },
         "BayWind(Спойлер) (TurboS 1980)": {
-            "atlas": 1,
-            "index": 11
+            "atlas": 2,
+            "index": 6
         },
         "Bentley Continental GT3": {
-            "atlas": 1,
-            "index": 12
+            "atlas": 2,
+            "index": 7
         },
         "Big Baby Tape": {
-            "atlas": 1,
-            "index": 13
+            "atlas": 2,
+            "index": 8
         },
         "Blackjack Dealer": {
-            "atlas": 1,
-            "index": 14
+            "atlas": 2,
+            "index": 9
         },
         "Brabus 700": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 0
         },
         "Brabus Adventure": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 1
         },
         "Brulyov": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 2
         },
         "CJ": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 3
         },
         "Cadillac Escalade Larte Design": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 4
         },
         "Classic Hillbilly [5083]": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 5
         },
         "Classic Hillbilly [5084]": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 6
         },
         "Classic Homeless [5081]": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 7
         },
         "Classic Homeless [5082]": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 8
         },
         "Classic Normal Ped": {
-            "atlas": 2,
+            "atlas": 3,
             "index": 9
         },
         "Construction Worker": {
-            "atlas": 2,
-            "index": 10
-        },
-        "Da Nang Boy": {
-            "atlas": 2,
-            "index": 11
-        },
-        "Delorenzy": {
-            "atlas": 2,
-            "index": 12
-        },
-        "Desert Eagle": {
-            "atlas": 2,
-            "index": 13
-        },
-        "Devel Sixteen": {
-            "atlas": 2,
-            "index": 14
-        },
-        "Dodge Charger FBI": {
-            "atlas": 3,
+            "atlas": 4,
             "index": 0
         },
-        "Ducati Panigale 1199 R": {
-            "atlas": 3,
+        "Da Nang Boy": {
+            "atlas": 4,
             "index": 1
         },
-        "Edward Bil": {
-            "atlas": 3,
+        "Delorenzy": {
+            "atlas": 4,
             "index": 2
         },
-        "Eva Elfie": {
-            "atlas": 3,
+        "Desert Eagle": {
+            "atlas": 4,
             "index": 3
         },
-        "F1 Bolide 23": {
-            "atlas": 3,
+        "Devel Sixteen": {
+            "atlas": 4,
             "index": 4
         },
-        "FBI Corvette C8": {
-            "atlas": 3,
+        "Dodge Charger FBI": {
+            "atlas": 4,
             "index": 5
         },
-        "FBI Mustang RTR": {
-            "atlas": 3,
+        "Ducati Panigale 1199 R": {
+            "atlas": 4,
             "index": 6
         },
-        "Fantasy Helicopter": {
-            "atlas": 3,
+        "Edward Bil": {
+            "atlas": 4,
             "index": 7
         },
-        "Feduk": {
-            "atlas": 3,
+        "Eva Elfie": {
+            "atlas": 4,
             "index": 8
         },
-        "Ferrari F80": {
-            "atlas": 3,
+        "F1 Bolide 23": {
+            "atlas": 4,
             "index": 9
         },
+        "FBI Corvette C8": {
+            "atlas": 5,
+            "index": 0
+        },
+        "FBI Mustang RTR": {
+            "atlas": 5,
+            "index": 1
+        },
+        "Fantasy Helicopter": {
+            "atlas": 5,
+            "index": 2
+        },
+        "Feduk": {
+            "atlas": 5,
+            "index": 3
+        },
+        "Ferrari F80": {
+            "atlas": 5,
+            "index": 4
+        },
         "Ferrari SF90 Off-Road": {
-            "atlas": 3,
-            "index": 10
+            "atlas": 5,
+            "index": 5
         },
         "Ferrari SF90 Stradale": {
-            "atlas": 3,
-            "index": 11
+            "atlas": 5,
+            "index": 6
         },
         "Grove Street Families": {
-            "atlas": 3,
-            "index": 12
+            "atlas": 5,
+            "index": 7
         },
         "HEV Бронежилет": {
-            "atlas": 3,
-            "index": 13
+            "atlas": 5,
+            "index": 8
         },
         "Hillbilly (350)": {
-            "atlas": 3,
-            "index": 14
+            "atlas": 5,
+            "index": 9
         },
         "Hotdog/Chilli Dog Vendor": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 0
         },
         "Hover Formula": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 1
         },
         "IPhone X (Белый)": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 2
         },
         "IPhone X (Золотой)": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 3
         },
         "IPhone X (Серебряный)": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 4
         },
         "Kawasaki NInja xr1000": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 5
         },
         "Koenigsegg Jesko": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 6
         },
         "Koenigsegg One": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 7
         },
         "Kovalevkiy": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 8
         },
         "LS Police Officer [494]": {
-            "atlas": 4,
+            "atlas": 6,
             "index": 9
         },
         "LS Police Officer [495]": {
-            "atlas": 4,
-            "index": 10
-        },
-        "LV Police Officer": {
-            "atlas": 4,
-            "index": 11
-        },
-        "Lada 2114": {
-            "atlas": 4,
-            "index": 12
-        },
-        "Lamborghini Gallardo": {
-            "atlas": 4,
-            "index": 13
-        },
-        "Lamborghini Huracan Sterrato Off-Road": {
-            "atlas": 4,
-            "index": 14
-        },
-        "Lamborghini Urus Mansory": {
-            "atlas": 5,
+            "atlas": 7,
             "index": 0
         },
-        "Lamborghini Urus Off-Road": {
-            "atlas": 5,
+        "LV Police Officer": {
+            "atlas": 7,
             "index": 1
         },
-        "Lamnorghini Police UAE": {
-            "atlas": 5,
+        "Lada 2114": {
+            "atlas": 7,
             "index": 2
         },
-        "Los Santos Vagos": {
-            "atlas": 5,
+        "Lamborghini Gallardo": {
+            "atlas": 7,
             "index": 3
         },
-        "MClaren Senna": {
-            "atlas": 5,
+        "Lamborghini Huracan Sterrato Off-Road": {
+            "atlas": 7,
             "index": 4
         },
-        "MORGENSHTERN": {
-            "atlas": 5,
+        "Lamborghini Urus Mansory": {
+            "atlas": 7,
             "index": 5
         },
-        "Madcar": {
-            "atlas": 5,
+        "Lamborghini Urus Off-Road": {
+            "atlas": 7,
             "index": 6
         },
-        "Maras Shakur": {
-            "atlas": 5,
+        "Lamnorghini Police UAE": {
+            "atlas": 7,
             "index": 7
         },
-        "Mary": {
-            "atlas": 5,
+        "Los Santos Vagos": {
+            "atlas": 7,
             "index": 8
         },
-        "McLaren Speedtail": {
-            "atlas": 5,
+        "MClaren Senna": {
+            "atlas": 7,
             "index": 9
         },
+        "MORGENSHTERN": {
+            "atlas": 8,
+            "index": 0
+        },
+        "Madcar": {
+            "atlas": 8,
+            "index": 1
+        },
+        "Maras Shakur": {
+            "atlas": 8,
+            "index": 2
+        },
+        "Mary": {
+            "atlas": 8,
+            "index": 3
+        },
+        "McLaren Speedtail": {
+            "atlas": 8,
+            "index": 4
+        },
         "Mclaren 570s Carbon": {
-            "atlas": 5,
-            "index": 10
+            "atlas": 8,
+            "index": 5
         },
         "Mercedes E190 Evolution": {
-            "atlas": 5,
-            "index": 11
+            "atlas": 8,
+            "index": 6
         },
         "Mercedes GT63 Brabus": {
-            "atlas": 5,
-            "index": 12
+            "atlas": 8,
+            "index": 7
         },
         "Mercedes-AMG G63 6×6": {
-            "atlas": 5,
-            "index": 13
+            "atlas": 8,
+            "index": 8
         },
         "Mercedes-AMG GT Black": {
-            "atlas": 5,
-            "index": 14
+            "atlas": 8,
+            "index": 9
         },
         "Mercedes-Benz Big Foot": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 0
         },
         "Mercedes-Benz GLE Brabus": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 1
         },
         "Mercedes-Benz Wendsdey": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 2
         },
         "Mihanika69": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 3
         },
         "Naran Hyper Coupe": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 4
         },
         "Nissan Skyline Vision GTR": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 5
         },
         "PUBG (Camo multicolored)": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 6
         },
         "PUBG (Camo yellow)": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 7
         },
         "Pagani Huayra": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 8
         },
         "Peterbilt 359": {
-            "atlas": 6,
+            "atlas": 9,
             "index": 9
         },
         "Planet Express": {
-            "atlas": 6,
-            "index": 10
-        },
-        "Porsche 911 Бигбуль": {
-            "atlas": 6,
-            "index": 11
-        },
-        "Punk": {
-            "atlas": 6,
-            "index": 12
-        },
-        "RGB чемодан": {
-            "atlas": 6,
-            "index": 13
-        },
-        "Rezvani Vengeance": {
-            "atlas": 6,
-            "index": 14
-        },
-        "Rolls Royse Spectre Mansory": {
-            "atlas": 7,
+            "atlas": 10,
             "index": 0
         },
-        "Rolls-Royce Cullinan Mansory": {
-            "atlas": 7,
+        "Porsche 911 Бигбуль": {
+            "atlas": 10,
             "index": 1
         },
-        "SRT Tomohawk": {
-            "atlas": 7,
+        "Punk": {
+            "atlas": 10,
             "index": 2
         },
-        "Samsung Galaxy S10 (Белый)": {
-            "atlas": 7,
+        "RGB чемодан": {
+            "atlas": 10,
             "index": 3
         },
-        "Samsung Galaxy S10 (Золотой)": {
-            "atlas": 7,
+        "Rezvani Vengeance": {
+            "atlas": 10,
             "index": 4
         },
-        "Samsung Galaxy S10 (Серебряный)": {
-            "atlas": 7,
+        "Rolls Royse Spectre Mansory": {
+            "atlas": 10,
             "index": 5
         },
-        "San Fierro Rifa": {
-            "atlas": 7,
+        "Rolls-Royce Cullinan Mansory": {
+            "atlas": 10,
             "index": 6
         },
-        "Scania Chimera": {
-            "atlas": 7,
+        "SRT Tomohawk": {
+            "atlas": 10,
             "index": 7
         },
-        "Shelby Cobra 427 Custom": {
-            "atlas": 7,
+        "Samsung Galaxy S10 (Белый)": {
+            "atlas": 10,
             "index": 8
         },
-        "Stripper": {
-            "atlas": 7,
+        "Samsung Galaxy S10 (Золотой)": {
+            "atlas": 10,
             "index": 9
         },
+        "Samsung Galaxy S10 (Серебряный)": {
+            "atlas": 11,
+            "index": 0
+        },
+        "San Fierro Rifa": {
+            "atlas": 11,
+            "index": 1
+        },
+        "Scania Chimera": {
+            "atlas": 11,
+            "index": 2
+        },
+        "Shelby Cobra 427 Custom": {
+            "atlas": 11,
+            "index": 3
+        },
+        "Stripper": {
+            "atlas": 11,
+            "index": 4
+        },
         "Tesla Cybertruck Mansory": {
-            "atlas": 7,
-            "index": 10
+            "atlas": 11,
+            "index": 5
         },
         "The Mafia": {
-            "atlas": 7,
-            "index": 11
+            "atlas": 11,
+            "index": 6
         },
         "The Russian Mafia": {
-            "atlas": 7,
-            "index": 12
+            "atlas": 11,
+            "index": 7
         },
         "Tourbillon": {
-            "atlas": 7,
-            "index": 13
+            "atlas": 11,
+            "index": 8
         },
         "Toyota Land Cruiser 200 FBI": {
-            "atlas": 7,
-            "index": 14
+            "atlas": 11,
+            "index": 9
         },
         "Triple H": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 0
         },
         "Twin Turbo (2 уровня)": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 1
         },
         "Twin Turbo": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 2
         },
         "Vanda Electrics Dendrobium": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 3
         },
         "Varios Los Aztecas": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 4
         },
         "Xpeng Aero-Ht Evtol flying 1": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 5
         },
         "Xpeng Aero-Ht Evtol flying 2": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 6
         },
         "Аарон Пол": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 7
         },
         "Автомат AK47": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 8
         },
         "Автомат M4": {
-            "atlas": 8,
+            "atlas": 12,
             "index": 9
         },
         "Адская гитара (на спутника)": {
-            "atlas": 8,
-            "index": 10
-        },
-        "Адская трава": {
-            "atlas": 8,
-            "index": 11
-        },
-        "Аегис": {
-            "atlas": 8,
-            "index": 12
-        },
-        "Активный шлагбаум": {
-            "atlas": 8,
-            "index": 13
-        },
-        "Алмазный камень": {
-            "atlas": 8,
-            "index": 14
-        },
-        "Альберт": {
-            "atlas": 9,
+            "atlas": 13,
             "index": 0
         },
-        "Алюминиевая бутылка": {
-            "atlas": 9,
+        "Адская трава": {
+            "atlas": 13,
             "index": 1
         },
-        "Алюминий": {
-            "atlas": 9,
+        "Аегис": {
+            "atlas": 13,
             "index": 2
         },
-        "Амиран": {
-            "atlas": 9,
+        "Активный шлагбаум": {
+            "atlas": 13,
             "index": 3
         },
-        "Амулет миража": {
-            "atlas": 9,
+        "Алмазный камень": {
+            "atlas": 13,
             "index": 4
         },
-        "Амулет": {
-            "atlas": 9,
+        "Альберт": {
+            "atlas": 13,
             "index": 5
         },
-        "Амулеты анкх": {
-            "atlas": 9,
+        "Алюминиевая бутылка": {
+            "atlas": 13,
             "index": 6
         },
-        "Ангельское кольцо на голову": {
-            "atlas": 9,
+        "Алюминий": {
+            "atlas": 13,
             "index": 7
         },
-        "Анимированные Очки Netrunner": {
-            "atlas": 9,
+        "Амиран": {
+            "atlas": 13,
             "index": 8
         },
-        "Анимированные часы на спину ( на спутника)": {
-            "atlas": 9,
+        "Амулет миража": {
+            "atlas": 13,
             "index": 9
         },
+        "Амулет": {
+            "atlas": 14,
+            "index": 0
+        },
+        "Амулеты анкх": {
+            "atlas": 14,
+            "index": 1
+        },
+        "Ангельское кольцо на голову": {
+            "atlas": 14,
+            "index": 2
+        },
+        "Анимированные Очки Netrunner": {
+            "atlas": 14,
+            "index": 3
+        },
+        "Анимированные часы на спину ( на спутника)": {
+            "atlas": 14,
+            "index": 4
+        },
         "Анимированный Билл Шифр": {
-            "atlas": 9,
-            "index": 10
+            "atlas": 14,
+            "index": 5
         },
         "Анимированный Пончиковый нимб": {
-            "atlas": 9,
-            "index": 11
+            "atlas": 14,
+            "index": 6
         },
         "Анимированный огненный глаз ( на спутника)": {
-            "atlas": 9,
-            "index": 12
+            "atlas": 14,
+            "index": 7
         },
         "Анимированые Щупальца": {
-            "atlas": 9,
-            "index": 13
+            "atlas": 14,
+            "index": 8
         },
         "Аннимированный  пончиковый нимб": {
-            "atlas": 9,
-            "index": 14
+            "atlas": 14,
+            "index": 9
         },
         "Анонимуса": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 0
         },
         "Антибиотик": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 1
         },
         "Антивход в бар (30 дней)": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 2
         },
         "Антивход в казино (30 дней)": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 3
         },
         "Аптечка": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 4
         },
         "Арбалет Траксы": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 5
         },
         "Аркана ИО": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 6
         },
         "Багажник": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 7
         },
         "Баллас пончик воздушный шар": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 8
         },
         "Баллончик с краской": {
-            "atlas": 10,
+            "atlas": 15,
             "index": 9
         },
         "Балонный ключ на спину": {
-            "atlas": 10,
-            "index": 10
-        },
-        "Батлфьюри": {
-            "atlas": 10,
-            "index": 11
-        },
-        "Безумная Газель": {
-            "atlas": 10,
-            "index": 12
-        },
-        "Бейсбольная Бита Compton": {
-            "atlas": 10,
-            "index": 13
-        },
-        "Белая ваза": {
-            "atlas": 10,
-            "index": 14
-        },
-        "Белая гитара": {
-            "atlas": 11,
+            "atlas": 16,
             "index": 0
         },
-        "Белое яйцо": {
-            "atlas": 11,
+        "Батлфьюри": {
+            "atlas": 16,
             "index": 1
         },
-        "Белый DELETED [предмет]": {
-            "atlas": 11,
+        "Безумная Газель": {
+            "atlas": 16,
             "index": 2
         },
-        "Белый Домофон": {
-            "atlas": 11,
+        "Бейсбольная Бита Compton": {
+            "atlas": 16,
             "index": 3
         },
-        "Белый Светильник": {
-            "atlas": 11,
+        "Белая ваза": {
+            "atlas": 16,
             "index": 4
         },
-        "Белый мешок": {
-            "atlas": 11,
+        "Белая гитара": {
+            "atlas": 16,
             "index": 5
         },
-        "Белый неоновый свет": {
-            "atlas": 11,
+        "Белое яйцо": {
+            "atlas": 16,
             "index": 6
         },
-        "Бензопила на спину": {
-            "atlas": 11,
+        "Белый DELETED [предмет]": {
+            "atlas": 16,
             "index": 7
         },
-        "Бензопила-DELETED": {
-            "atlas": 11,
+        "Белый Домофон": {
+            "atlas": 16,
             "index": 8
         },
-        "Билли Херрингтон": {
-            "atlas": 11,
+        "Белый Светильник": {
+            "atlas": 16,
             "index": 9
         },
+        "Белый мешок": {
+            "atlas": 17,
+            "index": 0
+        },
+        "Белый неоновый свет": {
+            "atlas": 17,
+            "index": 1
+        },
+        "Бензопила на спину": {
+            "atlas": 17,
+            "index": 2
+        },
+        "Бензопила-DELETED": {
+            "atlas": 17,
+            "index": 3
+        },
+        "Билли Херрингтон": {
+            "atlas": 17,
+            "index": 4
+        },
         "Бита [предмет]": {
-            "atlas": 11,
-            "index": 10
+            "atlas": 17,
+            "index": 5
         },
         "Бита с гвоздями": {
-            "atlas": 11,
-            "index": 11
+            "atlas": 17,
+            "index": 6
         },
         "Бита": {
-            "atlas": 11,
-            "index": 12
+            "atlas": 17,
+            "index": 7
         },
         "Бойцовский клуб": {
-            "atlas": 11,
-            "index": 13
+            "atlas": 17,
+            "index": 8
         },
         "Большая зеленая мусорка с коробками": {
-            "atlas": 11,
-            "index": 14
+            "atlas": 17,
+            "index": 9
         },
         "Большая зеленая мусорка": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 0
         },
         "Большая красная мусорка": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 1
         },
         "Большая синяя мусорка": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 2
         },
         "Большой DELETED на спину": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 3
         },
         "Большой Куст#1": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 4
         },
         "Большой Куст#2": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 5
         },
         "Большой Куст": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 6
         },
         "Большой желтый шар": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 7
         },
         "Большой зеленый шар": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 8
         },
         "Большой красный шар": {
-            "atlas": 12,
+            "atlas": 18,
             "index": 9
         },
         "Большой серый шар": {
-            "atlas": 12,
-            "index": 10
-        },
-        "Большой синий шар": {
-            "atlas": 12,
-            "index": 11
-        },
-        "Борода #1": {
-            "atlas": 12,
-            "index": 12
-        },
-        "Бочка": {
-            "atlas": 12,
-            "index": 13
-        },
-        "Бронежилет Supreme": {
-            "atlas": 12,
-            "index": 14
-        },
-        "Бронежилет «Burger King г*вно»": {
-            "atlas": 13,
+            "atlas": 19,
             "index": 0
         },
-        "Бронежилет «Атака Титанов»": {
-            "atlas": 13,
+        "Большой синий шар": {
+            "atlas": 19,
             "index": 1
         },
-        "Бронежилет «Гравити Фолз»": {
-            "atlas": 13,
+        "Борода #1": {
+            "atlas": 19,
             "index": 2
         },
-        "Бронежилет «Игра в кальмара»": {
-            "atlas": 13,
+        "Бочка": {
+            "atlas": 19,
             "index": 3
         },
-        "Бронежилет «Лайт»": {
-            "atlas": 13,
+        "Бронежилет Supreme": {
+            "atlas": 19,
             "index": 4
         },
-        "Бронежилет «Мортал Комбат»": {
-            "atlas": 13,
+        "Бронежилет «Burger King г:вно»": {
+            "atlas": 19,
             "index": 5
         },
-        "Бронежилет «Невермор»": {
-            "atlas": 13,
+        "Бронежилет «Атака Титанов»": {
+            "atlas": 19,
             "index": 6
         },
-        "Бронежилет «Орда»": {
-            "atlas": 13,
+        "Бронежилет «Гравити Фолз»": {
+            "atlas": 19,
             "index": 7
         },
-        "Бронежилет «Симпсоны»": {
-            "atlas": 13,
+        "Бронежилет «Игра в кальмара»": {
+            "atlas": 19,
             "index": 8
         },
-        "Бронежилет «Унесенные призраками»": {
-            "atlas": 13,
+        "Бронежилет «Лайт»": {
+            "atlas": 19,
             "index": 9
         },
+        "Бронежилет «Мортал Комбат»": {
+            "atlas": 20,
+            "index": 0
+        },
+        "Бронежилет «Невермор»": {
+            "atlas": 20,
+            "index": 1
+        },
+        "Бронежилет «Орда»": {
+            "atlas": 20,
+            "index": 2
+        },
+        "Бронежилет «Симпсоны»": {
+            "atlas": 20,
+            "index": 3
+        },
+        "Бронежилет «Унесенные призраками»": {
+            "atlas": 20,
+            "index": 4
+        },
         "Бронежилет «Учиха»": {
-            "atlas": 13,
-            "index": 10
+            "atlas": 20,
+            "index": 5
         },
         "Бронежилет «Щ.И.Т.»": {
-            "atlas": 13,
-            "index": 11
+            "atlas": 20,
+            "index": 6
         },
         "Бронежилет «Южный Парк»": {
-            "atlas": 13,
-            "index": 12
+            "atlas": 20,
+            "index": 7
         },
         "Бронежилет Ветка Сакуры": {
-            "atlas": 13,
-            "index": 13
+            "atlas": 20,
+            "index": 8
         },
         "Бронежилет Карателя": {
-            "atlas": 13,
-            "index": 14
+            "atlas": 20,
+            "index": 9
         },
         "Бронежилет Конь БоДжек»": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 0
         },
         "Бронежилет железного человека": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 1
         },
         "Бронза": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 2
         },
         "Бронзовая рулетка": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 3
         },
         "Бронированные шины": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 4
         },
         "Брэдли Купер": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 5
         },
         "Брюки Полли": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 6
         },
         "Брюки Томаса": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 7
         },
         "Букет цветов": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 8
         },
         "Бутылка алкоголя#1": {
-            "atlas": 14,
+            "atlas": 21,
             "index": 9
         },
         "Бутылка алкоголя#2": {
-            "atlas": 14,
-            "index": 10
-        },
-        "Бутылки с вином": {
-            "atlas": 14,
-            "index": 11
-        },
-        "Валентинка": {
-            "atlas": 14,
-            "index": 12
-        },
-        "Ведьма": {
-            "atlas": 14,
-            "index": 13
-        },
-        "Велосипед на спину": {
-            "atlas": 14,
-            "index": 14
-        },
-        "Верка Сердючка": {
-            "atlas": 15,
+            "atlas": 22,
             "index": 0
         },
-        "Вертолет протокола": {
-            "atlas": 15,
+        "Бутылки с вином": {
+            "atlas": 22,
             "index": 1
         },
-        "Вечный индикатор голода": {
-            "atlas": 15,
+        "Валентинка": {
+            "atlas": 22,
             "index": 2
         },
-        "Взрывная Мина": {
-            "atlas": 15,
+        "Ведьма": {
+            "atlas": 22,
             "index": 3
         },
-        "Видеокарта RTX 4090": {
-            "atlas": 15,
+        "Велосипед на спину": {
+            "atlas": 22,
             "index": 4
         },
-        "Видеокарта": {
-            "atlas": 15,
+        "Верка Сердючка": {
+            "atlas": 22,
             "index": 5
         },
-        "Викинг": {
-            "atlas": 15,
+        "Вертолет протокола": {
+            "atlas": 22,
             "index": 6
         },
-        "Виктор Цой": {
-            "atlas": 15,
+        "Вечный индикатор голода": {
+            "atlas": 22,
             "index": 7
         },
-        "Винил-1": {
-            "atlas": 15,
+        "Взрывная Мина": {
+            "atlas": 22,
             "index": 8
         },
-        "Винил-10": {
-            "atlas": 15,
+        "Видеокарта RTX 4090": {
+            "atlas": 22,
             "index": 9
         },
+        "Видеокарта": {
+            "atlas": 23,
+            "index": 0
+        },
+        "Викинг": {
+            "atlas": 23,
+            "index": 1
+        },
+        "Виктор Цой": {
+            "atlas": 23,
+            "index": 2
+        },
+        "Винил-1": {
+            "atlas": 23,
+            "index": 3
+        },
+        "Винил-10": {
+            "atlas": 23,
+            "index": 4
+        },
         "Винил-11": {
-            "atlas": 15,
-            "index": 10
+            "atlas": 23,
+            "index": 5
         },
         "Винил-12": {
-            "atlas": 15,
-            "index": 11
+            "atlas": 23,
+            "index": 6
         },
         "Винил-13": {
-            "atlas": 15,
-            "index": 12
+            "atlas": 23,
+            "index": 7
         },
         "Винил-14": {
-            "atlas": 15,
-            "index": 13
+            "atlas": 23,
+            "index": 8
         },
         "Винил-15": {
-            "atlas": 15,
-            "index": 14
+            "atlas": 23,
+            "index": 9
         },
         "Винил-16": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 0
         },
         "Винил-17": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 1
         },
         "Винил-2": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 2
         },
         "Винил-3": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 3
         },
         "Винил-4": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 4
         },
         "Винил-5": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 5
         },
         "Винил-6": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 6
         },
         "Винил-7": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 7
         },
         "Винил-8": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 8
         },
         "Винил-9": {
-            "atlas": 16,
+            "atlas": 24,
             "index": 9
         },
         "Винтовка": {
-            "atlas": 16,
-            "index": 10
-        },
-        "Водное дерево": {
-            "atlas": 16,
-            "index": 11
-        },
-        "Воздушный Шар Читера": {
-            "atlas": 16,
-            "index": 12
-        },
-        "Воздушный Шар": {
-            "atlas": 16,
-            "index": 13
-        },
-        "Воздушный шар #1": {
-            "atlas": 16,
-            "index": 14
-        },
-        "Воздушный шар #2": {
-            "atlas": 17,
+            "atlas": 25,
             "index": 0
         },
-        "Воздушный шар #3": {
-            "atlas": 17,
+        "Водное дерево": {
+            "atlas": 25,
             "index": 1
         },
-        "Воздушный шар #4": {
-            "atlas": 17,
+        "Воздушный Шар Читера": {
+            "atlas": 25,
             "index": 2
         },
-        "Воздушный шар #5": {
-            "atlas": 17,
+        "Воздушный Шар": {
+            "atlas": 25,
             "index": 3
         },
-        "Воздушный шар #6": {
-            "atlas": 17,
+        "Воздушный шар #1": {
+            "atlas": 25,
             "index": 4
         },
-        "Воздушный шар #7": {
-            "atlas": 17,
+        "Воздушный шар #2": {
+            "atlas": 25,
             "index": 5
         },
-        "Воздушный шар Дэдпул": {
-            "atlas": 17,
+        "Воздушный шар #3": {
+            "atlas": 25,
             "index": 6
         },
-        "Волгатти": {
-            "atlas": 17,
+        "Воздушный шар #4": {
+            "atlas": 25,
             "index": 7
         },
-        "Восстановленная карта кладов": {
-            "atlas": 17,
+        "Воздушный шар #5": {
+            "atlas": 25,
             "index": 8
         },
-        "Все навыки стрельбы": {
-            "atlas": 17,
+        "Воздушный шар #6": {
+            "atlas": 25,
             "index": 9
         },
+        "Воздушный шар #7": {
+            "atlas": 26,
+            "index": 0
+        },
+        "Воздушный шар Дэдпул": {
+            "atlas": 26,
+            "index": 1
+        },
+        "Волгатти": {
+            "atlas": 26,
+            "index": 2
+        },
+        "Восстановленная карта кладов": {
+            "atlas": 26,
+            "index": 3
+        },
+        "Все навыки стрельбы": {
+            "atlas": 26,
+            "index": 4
+        },
         "Высокий забор": {
-            "atlas": 17,
-            "index": 10
+            "atlas": 26,
+            "index": 5
         },
         "Гаечный ключ на грудь": {
-            "atlas": 17,
-            "index": 11
+            "atlas": 26,
+            "index": 6
         },
         "Генеральский бронежилет": {
-            "atlas": 17,
-            "index": 12
+            "atlas": 26,
+            "index": 7
         },
         "Гибридная установка": {
-            "atlas": 17,
-            "index": 13
+            "atlas": 26,
+            "index": 8
         },
         "Гитара (Белая)": {
-            "atlas": 17,
-            "index": 14
+            "atlas": 26,
+            "index": 9
         },
         "Гитара (Красная)": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 0
         },
         "Гитара (Черная)": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 1
         },
         "Гоблинская кирка": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 2
         },
         "Голова LEGO": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 3
         },
         "Голова Тише едешь, дальше будешь": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 4
         },
         "Голова Тыква": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 5
         },
         "Голова оленя": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 6
         },
         "Голова орла": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 7
         },
         "Голубое яйцо": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 8
         },
         "Голубой Ларец Миража": {
-            "atlas": 18,
+            "atlas": 27,
             "index": 9
         },
         "Голубой Светильник": {
-            "atlas": 18,
-            "index": 10
-        },
-        "Гослинг Шейх": {
-            "atlas": 18,
-            "index": 11
-        },
-        "Грабли (аксессуар)": {
-            "atlas": 18,
-            "index": 12
-        },
-        "Грабли Аризоны": {
-            "atlas": 18,
-            "index": 13
-        },
-        "Грамота Ветерана": {
-            "atlas": 18,
-            "index": 14
-        },
-        "Граната": {
-            "atlas": 19,
+            "atlas": 28,
             "index": 0
         },
-        "Гриб Мухомор": {
-            "atlas": 19,
+        "Гослинг Шейх": {
+            "atlas": 28,
             "index": 1
         },
-        "Гриб Поганка": {
-            "atlas": 19,
+        "Грабли (аксессуар)": {
+            "atlas": 28,
             "index": 2
         },
-        "Гроб": {
-            "atlas": 19,
+        "Грабли Аризоны": {
+            "atlas": 28,
             "index": 3
         },
-        "Гробовщик": {
-            "atlas": 19,
+        "Грамота Ветерана": {
+            "atlas": 28,
             "index": 4
         },
-        "Грув Пончик воздушный шар": {
-            "atlas": 19,
+        "Граната": {
+            "atlas": 28,
             "index": 5
         },
-        "Грунт": {
-            "atlas": 19,
+        "Гриб Мухомор": {
+            "atlas": 28,
             "index": 6
         },
-        "Грядка Льна": {
-            "atlas": 19,
+        "Гриб Поганка": {
+            "atlas": 28,
             "index": 7
         },
-        "Грядка Укропа": {
-            "atlas": 19,
+        "Гроб": {
+            "atlas": 28,
             "index": 8
         },
-        "Грядка Хлопка": {
-            "atlas": 19,
+        "Гробовщик": {
+            "atlas": 28,
             "index": 9
         },
+        "Грув Пончик воздушный шар": {
+            "atlas": 29,
+            "index": 0
+        },
+        "Грунт": {
+            "atlas": 29,
+            "index": 1
+        },
+        "Грядка Льна": {
+            "atlas": 29,
+            "index": 2
+        },
+        "Грядка Укропа": {
+            "atlas": 29,
+            "index": 3
+        },
+        "Грядка Хлопка": {
+            "atlas": 29,
+            "index": 4
+        },
         "Грядка всякой всячины": {
-            "atlas": 19,
-            "index": 10
+            "atlas": 29,
+            "index": 5
         },
         "Грядка с укропом": {
-            "atlas": 19,
-            "index": 11
+            "atlas": 29,
+            "index": 6
         },
         "Данила Багров": {
-            "atlas": 19,
-            "index": 12
+            "atlas": 29,
+            "index": 7
         },
         "Дарт Вейдер": {
-            "atlas": 19,
-            "index": 13
+            "atlas": 29,
+            "index": 8
         },
         "Два стула со столом": {
-            "atlas": 19,
-            "index": 14
+            "atlas": 29,
+            "index": 9
         },
         "Два черепа": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 0
         },
         "Двигатель 1980": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 1
         },
         "Двигатель": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 2
         },
         "Дезолятор": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 3
         },
         "Дейви Джонс": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 4
         },
         "Демонический Металлоискатель": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 5
         },
         "Денджи": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 6
         },
         "Деревянный забор#1": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 7
         },
         "Деревянный забор#2": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 8
         },
         "Деревянный стол": {
-            "atlas": 20,
+            "atlas": 30,
             "index": 9
         },
         "Деревянный стул": {
-            "atlas": 20,
-            "index": 10
-        },
-        "Дерек": {
-            "atlas": 20,
-            "index": 11
-        },
-        "Деталь автомобиля": {
-            "atlas": 20,
-            "index": 12
-        },
-        "Деталь двигателя": {
-            "atlas": 20,
-            "index": 13
-        },
-        "Джек Воробей": {
-            "atlas": 20,
-            "index": 14
-        },
-        "Джек Рождественский": {
-            "atlas": 21,
+            "atlas": 31,
             "index": 0
         },
-        "Джек Роллер": {
-            "atlas": 21,
+        "Дерек": {
+            "atlas": 31,
             "index": 1
         },
-        "Джетпак": {
-            "atlas": 21,
+        "Деталь автомобиля": {
+            "atlas": 31,
             "index": 2
         },
-        "Джинкс": {
-            "atlas": 21,
+        "Деталь двигателя": {
+            "atlas": 31,
             "index": 3
         },
-        "Джон Траволта": {
-            "atlas": 21,
+        "Джек Воробей": {
+            "atlas": 31,
             "index": 4
         },
-        "Джонни": {
-            "atlas": 21,
+        "Джек Рождественский": {
+            "atlas": 31,
             "index": 5
         },
-        "Джордж Клуни": {
-            "atlas": 21,
+        "Джек Роллер": {
+            "atlas": 31,
             "index": 6
         },
-        "Джэки Чан": {
-            "atlas": 21,
+        "Джетпак": {
+            "atlas": 31,
             "index": 7
         },
-        "Диван": {
-            "atlas": 21,
+        "Джинкс": {
+            "atlas": 31,
             "index": 8
         },
-        "Диски (Type-1)": {
-            "atlas": 21,
+        "Джон Траволта": {
+            "atlas": 31,
             "index": 9
         },
+        "Джонни": {
+            "atlas": 32,
+            "index": 0
+        },
+        "Джордж Клуни": {
+            "atlas": 32,
+            "index": 1
+        },
+        "Джэки Чан": {
+            "atlas": 32,
+            "index": 2
+        },
+        "Диван": {
+            "atlas": 32,
+            "index": 3
+        },
+        "Диски (Type-1)": {
+            "atlas": 32,
+            "index": 4
+        },
         "Диски (Type-10)": {
-            "atlas": 21,
-            "index": 10
+            "atlas": 32,
+            "index": 5
         },
         "Диски (Type-11)": {
-            "atlas": 21,
-            "index": 11
+            "atlas": 32,
+            "index": 6
         },
         "Диски (Type-12)": {
-            "atlas": 21,
-            "index": 12
+            "atlas": 32,
+            "index": 7
         },
         "Диски (Type-13)": {
-            "atlas": 21,
-            "index": 13
+            "atlas": 32,
+            "index": 8
         },
         "Диски (Type-14)": {
-            "atlas": 21,
-            "index": 14
+            "atlas": 32,
+            "index": 9
         },
         "Диски (Type-15)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 0
         },
         "Диски (Type-16)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 1
         },
         "Диски (Type-17)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 2
         },
         "Диски (Type-2)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 3
         },
         "Диски (Type-3)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 4
         },
         "Диски (Type-4)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 5
         },
         "Диски (Type-5)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 6
         },
         "Диски (Type-6)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 7
         },
         "Диски (Type-7)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 8
         },
         "Диски (Type-8)": {
-            "atlas": 22,
+            "atlas": 33,
             "index": 9
         },
         "Диски (Type-9)": {
-            "atlas": 22,
-            "index": 10
-        },
-        "Диски (bergm)": {
-            "atlas": 22,
-            "index": 11
-        },
-        "Диски (darkblade)": {
-            "atlas": 22,
-            "index": 12
-        },
-        "Диски (smsr)": {
-            "atlas": 22,
-            "index": 13
-        },
-        "Диски (splnces)": {
-            "atlas": 22,
-            "index": 14
-        },
-        "Диски (tenzor)": {
-            "atlas": 23,
+            "atlas": 34,
             "index": 0
         },
-        "Диски (vskf)": {
-            "atlas": 23,
+        "Диски (bergm)": {
+            "atlas": 34,
             "index": 1
         },
-        "Диски (watanabe)": {
-            "atlas": 23,
+        "Диски (darkblade)": {
+            "atlas": 34,
             "index": 2
         },
-        "Диски (wolfrace)": {
-            "atlas": 23,
+        "Диски (smsr)": {
+            "atlas": 34,
             "index": 3
         },
-        "Дистиллированная вода": {
-            "atlas": 23,
+        "Диски (splnces)": {
+            "atlas": 34,
             "index": 4
         },
-        "Дифференциал (sport+)": {
-            "atlas": 23,
+        "Диски (tenzor)": {
+            "atlas": 34,
             "index": 5
         },
-        "Длинный Desert Eagle": {
-            "atlas": 23,
+        "Диски (vskf)": {
+            "atlas": 34,
             "index": 6
         },
-        "Документ отмывания денег": {
-            "atlas": 23,
+        "Диски (watanabe)": {
+            "atlas": 34,
             "index": 7
         },
-        "Документ: бизнес пилот": {
-            "atlas": 23,
+        "Диски (wolfrace)": {
+            "atlas": 34,
             "index": 8
         },
-        "Документ: опытный пилот": {
-            "atlas": 23,
+        "Дистиллированная вода": {
+            "atlas": 34,
             "index": 9
         },
+        "Дифференциал (sport+)": {
+            "atlas": 35,
+            "index": 0
+        },
+        "Длинный Desert Eagle": {
+            "atlas": 35,
+            "index": 1
+        },
+        "Документ отмывания денег": {
+            "atlas": 35,
+            "index": 2
+        },
+        "Документ: бизнес пилот": {
+            "atlas": 35,
+            "index": 3
+        },
+        "Документ: опытный пилот": {
+            "atlas": 35,
+            "index": 4
+        },
         "Документ: премиум пилот": {
-            "atlas": 23,
-            "index": 10
+            "atlas": 35,
+            "index": 5
         },
         "Дополнительная комната": {
-            "atlas": 23,
-            "index": 11
+            "atlas": 35,
+            "index": 6
         },
         "Древесина высшего качества": {
-            "atlas": 23,
-            "index": 12
+            "atlas": 35,
+            "index": 7
         },
         "Дрова": {
-            "atlas": 23,
-            "index": 13
+            "atlas": 35,
+            "index": 8
         },
         "Дрон 320": {
-            "atlas": 23,
-            "index": 14
+            "atlas": 35,
+            "index": 9
         },
         "Дрон Диджей": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 0
         },
         "Дрон Рабочий": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 1
         },
         "Дрон Убийца": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 2
         },
         "Дудец": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 3
         },
         "Дуэйн Джонсон": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 4
         },
         "Дьявольский чемодан": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 5
         },
         "Дэвид Мартинез": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 6
         },
         "Егор Крид": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 7
         },
         "Егор Летов": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 8
         },
         "Железная мусорка": {
-            "atlas": 24,
+            "atlas": 36,
             "index": 9
         },
         "Железное сердце": {
-            "atlas": 24,
-            "index": 10
-        },
-        "Железный стол": {
-            "atlas": 24,
-            "index": 11
-        },
-        "Железный стул": {
-            "atlas": 24,
-            "index": 12
-        },
-        "Желтая инструкция для разбора аксессуара": {
-            "atlas": 24,
-            "index": 13
-        },
-        "Желтый Светильник": {
-            "atlas": 24,
-            "index": 14
-        },
-        "Желтый неоновый свет": {
-            "atlas": 25,
+            "atlas": 37,
             "index": 0
         },
-        "Желтый подарок": {
-            "atlas": 25,
+        "Железный стол": {
+            "atlas": 37,
             "index": 1
         },
-        "Жилет Полли": {
-            "atlas": 25,
+        "Железный стул": {
+            "atlas": 37,
             "index": 2
         },
-        "Жилет Томаса": {
-            "atlas": 25,
+        "Желтая инструкция для разбора аксессуара": {
+            "atlas": 37,
             "index": 3
         },
-        "Жилет": {
-            "atlas": 25,
+        "Желтый Светильник": {
+            "atlas": 37,
             "index": 4
         },
-        "Забор в виде сетки 1": {
-            "atlas": 25,
+        "Желтый неоновый свет": {
+            "atlas": 37,
             "index": 5
         },
-        "Забор в виде сетки 2": {
-            "atlas": 25,
+        "Желтый подарок": {
+            "atlas": 37,
             "index": 6
         },
-        "Забор из мелких досок": {
-            "atlas": 25,
+        "Жилет Полли": {
+            "atlas": 37,
             "index": 7
         },
-        "Заколдованное дерево": {
-            "atlas": 25,
+        "Жилет Томаса": {
+            "atlas": 37,
             "index": 8
         },
-        "Заколдованный камень": {
-            "atlas": 25,
+        "Жилет": {
+            "atlas": 37,
             "index": 9
         },
+        "Забор в виде сетки 1": {
+            "atlas": 38,
+            "index": 0
+        },
+        "Забор в виде сетки 2": {
+            "atlas": 38,
+            "index": 1
+        },
+        "Забор из мелких досок": {
+            "atlas": 38,
+            "index": 2
+        },
+        "Заколдованное дерево": {
+            "atlas": 38,
+            "index": 3
+        },
+        "Заколдованный камень": {
+            "atlas": 38,
+            "index": 4
+        },
         "Замок с цепью": {
-            "atlas": 25,
-            "index": 10
+            "atlas": 38,
+            "index": 5
         },
         "Заморожен: Объект: Монумент Advance": {
-            "atlas": 25,
-            "index": 11
+            "atlas": 38,
+            "index": 6
         },
         "Заморожен: Объект: Растение-зомби": {
-            "atlas": 25,
-            "index": 12
+            "atlas": 38,
+            "index": 7
         },
         "Запакованный выхлоп (CARBON RING)": {
-            "atlas": 25,
-            "index": 13
+            "atlas": 38,
+            "index": 8
         },
         "Запакованный выхлоп (CARBON TWO)": {
-            "atlas": 25,
-            "index": 14
+            "atlas": 38,
+            "index": 9
         },
         "Запакованный выхлоп (GRADIENT STOCK)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 0
         },
         "Запакованный выхлоп (GRADIENT TWO)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 1
         },
         "Запакованный выхлоп (GRID)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 2
         },
         "Запакованный капот (DOUBLE-V)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 3
         },
         "Запакованный капот (FOUR-SLOT)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 4
         },
         "Запакованный капот (SPEEDLINE)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 5
         },
         "Запакованный капот (TREMOR)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 6
         },
         "Запакованный спойлер (CURSE)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 7
         },
         "Запакованный спойлер (DAYTONA)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 8
         },
         "Запакованный спойлер (DUCKTAIL)": {
-            "atlas": 26,
+            "atlas": 39,
             "index": 9
         },
         "Запакованный спойлер (REAPER)": {
-            "atlas": 26,
-            "index": 10
-        },
-        "Запакованный спойлер (STOCK)": {
-            "atlas": 26,
-            "index": 11
-        },
-        "Запечатанный  сертефикат на транспорт": {
-            "atlas": 26,
-            "index": 12
-        },
-        "Зарядка для электромобилей": {
-            "atlas": 26,
-            "index": 13
-        },
-        "Зарядка майнера": {
-            "atlas": 26,
-            "index": 14
-        },
-        "Заточенная рукоятка": {
-            "atlas": 27,
+            "atlas": 40,
             "index": 0
         },
-        "Заточенное цевье": {
-            "atlas": 27,
+        "Запакованный спойлер (STOCK)": {
+            "atlas": 40,
             "index": 1
         },
-        "Заточенный компенсатор": {
-            "atlas": 27,
+        "Запечатанный  сертефикат на транспорт": {
+            "atlas": 40,
             "index": 2
         },
-        "Заточенный магазин": {
-            "atlas": 27,
+        "Зарядка для электромобилей": {
+            "atlas": 40,
             "index": 3
         },
-        "Заточенный приклад": {
-            "atlas": 27,
+        "Зарядка майнера": {
+            "atlas": 40,
             "index": 4
         },
-        "Заточенный прицел": {
-            "atlas": 27,
+        "Заточенная рукоятка": {
+            "atlas": 40,
             "index": 5
         },
-        "Заточка  (100%)": {
-            "atlas": 27,
+        "Заточенное цевье": {
+            "atlas": 40,
             "index": 6
         },
-        "Заточка для оружия": {
-            "atlas": 27,
+        "Заточенный компенсатор": {
+            "atlas": 40,
             "index": 7
         },
-        "Заточка для удочки": {
-            "atlas": 27,
+        "Заточенный магазин": {
+            "atlas": 40,
             "index": 8
         },
-        "Заточка обвеса": {
-            "atlas": 27,
+        "Заточенный приклад": {
+            "atlas": 40,
             "index": 9
         },
+        "Заточенный прицел": {
+            "atlas": 41,
+            "index": 0
+        },
+        "Заточка  (100%)": {
+            "atlas": 41,
+            "index": 1
+        },
+        "Заточка для оружия": {
+            "atlas": 41,
+            "index": 2
+        },
+        "Заточка для удочки": {
+            "atlas": 41,
+            "index": 3
+        },
+        "Заточка обвеса": {
+            "atlas": 41,
+            "index": 4
+        },
         "Звездный нимб": {
-            "atlas": 27,
-            "index": 10
+            "atlas": 41,
+            "index": 5
         },
         "Зеленая мишень": {
-            "atlas": 27,
-            "index": 11
+            "atlas": 41,
+            "index": 6
         },
         "Зеленая новогодняя игрушка": {
-            "atlas": 27,
-            "index": 12
+            "atlas": 41,
+            "index": 7
         },
         "Зеленый Пляжный Лежак": {
-            "atlas": 27,
-            "index": 13
+            "atlas": 41,
+            "index": 8
         },
         "Зеленый Светильник": {
-            "atlas": 27,
-            "index": 14
+            "atlas": 41,
+            "index": 9
         },
         "Зеленый неоновый свет": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 0
         },
         "Зловещая монета": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 1
         },
         "Золотая гангстерская цепь": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 2
         },
         "Золотая корона": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 3
         },
         "Золотая монтировка": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 4
         },
         "Золотая рулетка": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 5
         },
         "Золотая шапка": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 6
         },
         "Золото": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 7
         },
         "Золотое яйцо": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 8
         },
         "Золотой Длинный Desert Eagle": {
-            "atlas": 28,
+            "atlas": 42,
             "index": 9
         },
         "Золотой Ларец Миража": {
-            "atlas": 28,
-            "index": 10
-        },
-        "Золотой длинный Desert Eagle на бедро": {
-            "atlas": 28,
-            "index": 11
-        },
-        "Золотой кейс": {
-            "atlas": 28,
-            "index": 12
-        },
-        "Зомби Чемодан": {
-            "atlas": 28,
-            "index": 13
-        },
-        "Игрушечный Delorean": {
-            "atlas": 28,
-            "index": 14
-        },
-        "Извлекатель нашивки": {
-            "atlas": 29,
+            "atlas": 43,
             "index": 0
         },
-        "Извлекатель обвесов/нашивки": {
-            "atlas": 29,
+        "Золотой длинный Desert Eagle на бедро": {
+            "atlas": 43,
             "index": 1
         },
-        "Именное поместье": {
-            "atlas": 29,
+        "Золотой кейс": {
+            "atlas": 43,
             "index": 2
         },
-        "Инвалидная коляска": {
-            "atlas": 29,
+        "Зомби Чемодан": {
+            "atlas": 43,
             "index": 3
         },
-        "Инвокер": {
-            "atlas": 29,
+        "Игрушечный Delorean": {
+            "atlas": 43,
             "index": 4
         },
-        "Индикатор голода": {
-            "atlas": 29,
+        "Извлекатель нашивки": {
+            "atlas": 43,
             "index": 5
         },
-        "Исток": {
-            "atlas": 29,
+        "Извлекатель обвесов/нашивки": {
+            "atlas": 43,
             "index": 6
         },
-        "Йода": {
-            "atlas": 29,
+        "Именное поместье": {
+            "atlas": 43,
             "index": 7
         },
-        "КПП (sport+)": {
-            "atlas": 29,
+        "Инвалидная коляска": {
+            "atlas": 43,
             "index": 8
         },
-        "Как*шка «Burger King»": {
-            "atlas": 29,
+        "Инвокер": {
+            "atlas": 43,
             "index": 9
         },
+        "Индикатор голода": {
+            "atlas": 44,
+            "index": 0
+        },
+        "Исток": {
+            "atlas": 44,
+            "index": 1
+        },
+        "Йода": {
+            "atlas": 44,
+            "index": 2
+        },
+        "КПП (sport+)": {
+            "atlas": 44,
+            "index": 3
+        },
+        "Как:шка «Burger King»": {
+            "atlas": 44,
+            "index": 4
+        },
         "Камень": {
-            "atlas": 29,
-            "index": 10
+            "atlas": 44,
+            "index": 5
         },
         "Камера видеонаблюдения": {
-            "atlas": 29,
-            "index": 11
+            "atlas": 44,
+            "index": 6
         },
         "Канистра на правое бедро": {
-            "atlas": 29,
-            "index": 12
+            "atlas": 44,
+            "index": 7
         },
         "Канистра": {
-            "atlas": 29,
-            "index": 13
+            "atlas": 44,
+            "index": 8
         },
         "Канье Уэст": {
-            "atlas": 29,
-            "index": 14
+            "atlas": 44,
+            "index": 9
         },
         "Карл Гейзенберг": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 0
         },
         "Карлик Вагос": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 1
         },
         "Карлик Грув": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 2
         },
         "Карта Штата": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 3
         },
         "Катана НИР": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 4
         },
         "Катана": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 5
         },
         "Кепка (Police)": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 6
         },
         "Кепка «Adidas» (серая)": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 7
         },
         "Кепка «Starbucks»": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 8
         },
         "Кепка «TikTok» (красная)": {
-            "atlas": 30,
+            "atlas": 45,
             "index": 9
         },
         "Кепка «TikTok» (серая)": {
-            "atlas": 30,
-            "index": 10
-        },
-        "Кепка «Vetements»": {
-            "atlas": 30,
-            "index": 11
-        },
-        "Киберпанковские VR-очки": {
-            "atlas": 30,
-            "index": 12
-        },
-        "Кий": {
-            "atlas": 30,
-            "index": 13
-        },
-        "Кирка Астероида": {
-            "atlas": 30,
-            "index": 14
-        },
-        "Кирка": {
-            "atlas": 31,
+            "atlas": 46,
             "index": 0
         },
-        "Клешня краба": {
-            "atlas": 31,
+        "Кепка «Vetements»": {
+            "atlas": 46,
             "index": 1
         },
-        "Клинки Аззинота": {
-            "atlas": 31,
+        "Киберпанковские VR-очки": {
+            "atlas": 46,
             "index": 2
         },
-        "Клинки Хаоса на спину": {
-            "atlas": 31,
+        "Кий": {
+            "atlas": 46,
             "index": 3
         },
-        "Клинок Хаоса (левый)": {
-            "atlas": 31,
+        "Кирка Астероида": {
+            "atlas": 46,
             "index": 4
         },
-        "Клинок Хаоса (правый)": {
-            "atlas": 31,
+        "Кирка": {
+            "atlas": 46,
             "index": 5
         },
-        "Клюшка": {
-            "atlas": 31,
+        "Клешня краба": {
+            "atlas": 46,
             "index": 6
         },
-        "Коктейль Молотова": {
-            "atlas": 31,
+        "Клинки Аззинота": {
+            "atlas": 46,
             "index": 7
         },
-        "Коленвал (sport+)": {
-            "atlas": 31,
+        "Клинки Хаоса на спину": {
+            "atlas": 46,
             "index": 8
         },
-        "Коленвал/Stage Sport+": {
-            "atlas": 31,
+        "Клинок Хаоса (левый)": {
+            "atlas": 46,
             "index": 9
         },
+        "Клинок Хаоса (правый)": {
+            "atlas": 47,
+            "index": 0
+        },
+        "Клюшка": {
+            "atlas": 47,
+            "index": 1
+        },
+        "Коктейль Молотова": {
+            "atlas": 47,
+            "index": 2
+        },
+        "Коленвал (sport+)": {
+            "atlas": 47,
+            "index": 3
+        },
+        "Коленвал/Stage Sport+": {
+            "atlas": 47,
+            "index": 4
+        },
         "Колеса 1980": {
-            "atlas": 31,
-            "index": 10
+            "atlas": 47,
+            "index": 5
         },
         "Колонка": {
-            "atlas": 31,
-            "index": 11
+            "atlas": 47,
+            "index": 6
         },
         "Компенсация: Агрессивная утка": {
-            "atlas": 31,
-            "index": 12
+            "atlas": 47,
+            "index": 7
         },
         "Компенсация: Баскетбольная сетка": {
-            "atlas": 31,
-            "index": 13
+            "atlas": 47,
+            "index": 8
         },
         "Компенсация: Большой гриб": {
-            "atlas": 31,
-            "index": 14
+            "atlas": 47,
+            "index": 9
         },
         "Конор Макгрегор": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 0
         },
         "Коричневый Чемодан": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 1
         },
         "Коробки из под еды": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 2
         },
         "Коробки из под пиццы": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 3
         },
         "Коробки": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 4
         },
-        "Корона «Burger King г*вн»": {
-            "atlas": 32,
+        "Корона «Burger King г:вн»": {
+            "atlas": 48,
             "index": 5
         },
         "Коса Марси": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 6
         },
         "Космическая рука": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 7
         },
         "Космический Джетпак": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 8
         },
         "Космический металлоискатель": {
-            "atlas": 32,
+            "atlas": 48,
             "index": 9
         },
         "Космический ремонт в дом (Осколок)": {
-            "atlas": 32,
-            "index": 10
-        },
-        "Космический рюкзак": {
-            "atlas": 32,
-            "index": 11
-        },
-        "Космос": {
-            "atlas": 32,
-            "index": 12
-        },
-        "Костер": {
-            "atlas": 32,
-            "index": 13
-        },
-        "Косточка кокосового дерева": {
-            "atlas": 32,
-            "index": 14
-        },
-        "Косточка сливового дерева": {
-            "atlas": 33,
+            "atlas": 49,
             "index": 0
         },
-        "Косточка яблочного дерева": {
-            "atlas": 33,
+        "Космический рюкзак": {
+            "atlas": 49,
             "index": 1
         },
-        "Краситель": {
-            "atlas": 33,
+        "Космос": {
+            "atlas": 49,
             "index": 2
         },
-        "Красная бочка": {
-            "atlas": 33,
+        "Костер": {
+            "atlas": 49,
             "index": 3
         },
-        "Красная гитара": {
-            "atlas": 33,
+        "Косточка кокосового дерева": {
+            "atlas": 49,
             "index": 4
         },
-        "Красная мишень": {
-            "atlas": 33,
+        "Косточка сливового дерева": {
+            "atlas": 49,
             "index": 5
         },
-        "Красная новогодняя игрушка": {
-            "atlas": 33,
+        "Косточка яблочного дерева": {
+            "atlas": 49,
             "index": 6
         },
-        "Красное яйцо": {
-            "atlas": 33,
+        "Краситель": {
+            "atlas": 49,
             "index": 7
         },
-        "Красный Светильник": {
-            "atlas": 33,
+        "Красная бочка": {
+            "atlas": 49,
             "index": 8
         },
-        "Красный мангал": {
-            "atlas": 33,
+        "Красная гитара": {
+            "atlas": 49,
             "index": 9
         },
+        "Красная мишень": {
+            "atlas": 50,
+            "index": 0
+        },
+        "Красная новогодняя игрушка": {
+            "atlas": 50,
+            "index": 1
+        },
+        "Красное яйцо": {
+            "atlas": 50,
+            "index": 2
+        },
+        "Красный Светильник": {
+            "atlas": 50,
+            "index": 3
+        },
+        "Красный мангал": {
+            "atlas": 50,
+            "index": 4
+        },
         "Красный неоновый свет": {
-            "atlas": 33,
-            "index": 10
+            "atlas": 50,
+            "index": 5
         },
         "Красный подарок": {
-            "atlas": 33,
-            "index": 11
+            "atlas": 50,
+            "index": 6
         },
         "Красный сноуборд": {
-            "atlas": 33,
-            "index": 12
+            "atlas": 50,
+            "index": 7
         },
         "Красный стол в клетку": {
-            "atlas": 33,
-            "index": 13
+            "atlas": 50,
+            "index": 8
         },
         "Красный стол": {
-            "atlas": 33,
-            "index": 14
+            "atlas": 50,
+            "index": 9
         },
         "Красный стул в клетку": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 0
         },
         "Красный стул": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 1
         },
         "Красный флажок": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 2
         },
         "Красный цветок в горшке": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 3
         },
         "Красный чемодан": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 4
         },
         "Красный ящик": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 5
         },
         "Крепкие водоросли": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 6
         },
         "Кресло качалка": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 7
         },
         "Крипто сумка короля (Деактивирована)": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 8
         },
         "Крипто сумка новичка (Деактивирована)": {
-            "atlas": 34,
+            "atlas": 51,
             "index": 9
         },
         "Крипто сумка олигарха (Деактивирована)": {
-            "atlas": 34,
-            "index": 10
-        },
-        "Крипто сумка профи (Деактивирована)": {
-            "atlas": 34,
-            "index": 11
-        },
-        "Крис Джерико": {
-            "atlas": 34,
-            "index": 12
-        },
-        "Крис Эванс": {
-            "atlas": 34,
-            "index": 13
-        },
-        "Кровавые Крылья": {
-            "atlas": 34,
-            "index": 14
-        },
-        "Крокодил Гена 003": {
-            "atlas": 35,
+            "atlas": 52,
             "index": 0
         },
-        "Крюк": {
-            "atlas": 35,
+        "Крипто сумка профи (Деактивирована)": {
+            "atlas": 52,
             "index": 1
         },
-        "Кузов 1980": {
-            "atlas": 35,
+        "Крис Джерико": {
+            "atlas": 52,
             "index": 2
         },
-        "Куллер с водой": {
-            "atlas": 35,
+        "Крис Эванс": {
+            "atlas": 52,
             "index": 3
         },
-        "Кусок качественного железа": {
-            "atlas": 35,
+        "Кровавые Крылья": {
+            "atlas": 52,
             "index": 4
         },
-        "Кусок редкой ткани": {
-            "atlas": 35,
+        "Крокодил Гена 003": {
+            "atlas": 52,
             "index": 5
         },
-        "Куст(Кактус)": {
-            "atlas": 35,
+        "Крюк": {
+            "atlas": 52,
             "index": 6
         },
-        "Лавка Чубрика": {
-            "atlas": 35,
+        "Кузов 1980": {
+            "atlas": 52,
             "index": 7
         },
-        "Лавочка [1261]": {
-            "atlas": 35,
+        "Куллер с водой": {
+            "atlas": 52,
             "index": 8
         },
-        "Лавочка [1282]": {
-            "atlas": 35,
+        "Кусок качественного железа": {
+            "atlas": 52,
             "index": 9
         },
+        "Кусок редкой ткани": {
+            "atlas": 53,
+            "index": 0
+        },
+        "Куст(Кактус)": {
+            "atlas": 53,
+            "index": 1
+        },
+        "Лавка Чубрика": {
+            "atlas": 53,
+            "index": 2
+        },
+        "Лавочка [1261]": {
+            "atlas": 53,
+            "index": 3
+        },
+        "Лавочка [1282]": {
+            "atlas": 53,
+            "index": 4
+        },
         "Ланая": {
-            "atlas": 35,
-            "index": 10
+            "atlas": 53,
+            "index": 5
         },
         "Ларец Лидера": {
-            "atlas": 35,
-            "index": 11
+            "atlas": 53,
+            "index": 6
         },
         "Ларец крафтера": {
-            "atlas": 35,
-            "index": 12
+            "atlas": 53,
+            "index": 7
         },
         "Левая космическая обувь": {
-            "atlas": 35,
-            "index": 13
+            "atlas": 53,
+            "index": 8
         },
         "Ледяная звезда": {
-            "atlas": 35,
-            "index": 14
+            "atlas": 53,
+            "index": 9
         },
         "Лестница (для сбора плодов)": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 0
         },
         "Летающие снежинки": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 1
         },
         "Летучий Голландец": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 2
         },
         "Литвин": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 3
         },
         "Лицензия дипломата": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 4
         },
         "Лом на спину": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 5
         },
         "Ломанное дерево": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 6
         },
         "Лопата [предмет]": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 7
         },
         "Лопата": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 8
         },
         "Люси": {
-            "atlas": 36,
+            "atlas": 54,
             "index": 9
         },
         "Лён": {
-            "atlas": 36,
-            "index": 10
-        },
-        "Магазин x3 Sawn-off": {
-            "atlas": 36,
-            "index": 11
-        },
-        "Магические сфера": {
-            "atlas": 36,
-            "index": 12
-        },
-        "Магический Чемодан": {
-            "atlas": 36,
-            "index": 13
-        },
-        "Магический воздушный шар #1": {
-            "atlas": 36,
-            "index": 14
-        },
-        "Магический воздушный шар #2": {
-            "atlas": 37,
+            "atlas": 55,
             "index": 0
         },
-        "Магический воздушный шар #3": {
-            "atlas": 37,
+        "Магазин x3 Sawn-off": {
+            "atlas": 55,
             "index": 1
         },
-        "Магический воздушный шар #4": {
-            "atlas": 37,
+        "Магические сфера": {
+            "atlas": 55,
             "index": 2
         },
-        "Магический воздушный шар #5": {
-            "atlas": 37,
+        "Магический Чемодан": {
+            "atlas": 55,
             "index": 3
         },
-        "Магический воздушный шар #6": {
-            "atlas": 37,
+        "Магический воздушный шар #1": {
+            "atlas": 55,
             "index": 4
         },
-        "Магический воздушный шар #7": {
-            "atlas": 37,
+        "Магический воздушный шар #2": {
+            "atlas": 55,
             "index": 5
         },
-        "Магический воздушный шар": {
-            "atlas": 37,
+        "Магический воздушный шар #3": {
+            "atlas": 55,
             "index": 6
         },
-        "Магический топор": {
-            "atlas": 37,
+        "Магический воздушный шар #4": {
+            "atlas": 55,
             "index": 7
         },
-        "Магмовый топор": {
-            "atlas": 37,
+        "Магический воздушный шар #5": {
+            "atlas": 55,
             "index": 8
         },
-        "Магнитофон": {
-            "atlas": 37,
+        "Магический воздушный шар #6": {
+            "atlas": 55,
             "index": 9
         },
+        "Магический воздушный шар #7": {
+            "atlas": 56,
+            "index": 0
+        },
+        "Магический воздушный шар": {
+            "atlas": 56,
+            "index": 1
+        },
+        "Магический топор": {
+            "atlas": 56,
+            "index": 2
+        },
+        "Магмовый топор": {
+            "atlas": 56,
+            "index": 3
+        },
+        "Магнитофон": {
+            "atlas": 56,
+            "index": 4
+        },
         "Майк Тайсон": {
-            "atlas": 37,
-            "index": 10
+            "atlas": 56,
+            "index": 5
         },
         "Майнер Тёмной Материи": {
-            "atlas": 37,
-            "index": 11
+            "atlas": 56,
+            "index": 6
         },
         "Майнскелет": {
-            "atlas": 37,
-            "index": 12
+            "atlas": 56,
+            "index": 7
         },
         "Макима": {
-            "atlas": 37,
-            "index": 13
+            "atlas": 56,
+            "index": 8
         },
         "Маленькое сердце": {
-            "atlas": 37,
-            "index": 14
+            "atlas": 56,
+            "index": 9
         },
         "Марк Цукерберг": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 0
         },
         "Маркер dead inside": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 1
         },
         "Маркер «BAD»": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 2
         },
         "Маска CJ": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 3
         },
         "Маска Wrench": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 4
         },
         "Маска Добби": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 5
         },
         "Маска Локи": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 6
         },
         "Маска Муэрты ( на спутника )": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 7
         },
         "Маска Распорядителя": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 8
         },
         "Маска Терминатор": {
-            "atlas": 38,
+            "atlas": 57,
             "index": 9
         },
         "Маска Халка": {
-            "atlas": 38,
-            "index": 10
-        },
-        "Маска Человека-паук": {
-            "atlas": 38,
-            "index": 11
-        },
-        "Маска Череп": {
-            "atlas": 38,
-            "index": 12
-        },
-        "Маска Шрек": {
-            "atlas": 38,
-            "index": 13
-        },
-        "Маска демона [предмет]": {
-            "atlas": 38,
-            "index": 14
-        },
-        "Маска из Бумажного дома": {
-            "atlas": 39,
+            "atlas": 58,
             "index": 0
         },
-        "Маска от коронавируса": {
-            "atlas": 39,
+        "Маска Человека-паук": {
+            "atlas": 58,
             "index": 1
         },
-        "Маска рейнджера": {
-            "atlas": 39,
+        "Маска Череп": {
+            "atlas": 58,
             "index": 2
         },
-        "Маска-невидимка": {
-            "atlas": 39,
+        "Маска Шрек": {
+            "atlas": 58,
             "index": 3
         },
-        "Маска": {
-            "atlas": 39,
+        "Маска демона [предмет]": {
+            "atlas": 58,
             "index": 4
         },
-        "Материалы": {
-            "atlas": 39,
+        "Маска из Бумажного дома": {
+            "atlas": 58,
             "index": 5
         },
-        "Металический забор": {
-            "atlas": 39,
+        "Маска от коронавируса": {
+            "atlas": 58,
             "index": 6
         },
-        "Металл": {
-            "atlas": 39,
+        "Маска рейнджера": {
+            "atlas": 58,
             "index": 7
         },
-        "Меч ВК": {
-            "atlas": 39,
+        "Маска-невидимка": {
+            "atlas": 58,
             "index": 8
         },
-        "Меч Звёздные войны": {
-            "atlas": 39,
+        "Маска": {
+            "atlas": 58,
             "index": 9
         },
+        "Материалы": {
+            "atlas": 59,
+            "index": 0
+        },
+        "Металический забор": {
+            "atlas": 59,
+            "index": 1
+        },
+        "Металл": {
+            "atlas": 59,
+            "index": 2
+        },
+        "Меч ВК": {
+            "atlas": 59,
+            "index": 3
+        },
+        "Меч Звёздные войны": {
+            "atlas": 59,
+            "index": 4
+        },
         "Меч хранителя": {
-            "atlas": 39,
-            "index": 10
+            "atlas": 59,
+            "index": 5
         },
         "Меч": {
-            "atlas": 39,
-            "index": 11
+            "atlas": 59,
+            "index": 6
         },
         "Мешок с деньгами": {
-            "atlas": 39,
-            "index": 12
+            "atlas": 59,
+            "index": 7
         },
         "Мешок с мясом": {
-            "atlas": 39,
-            "index": 13
+            "atlas": 59,
+            "index": 8
         },
         "Мешок": {
-            "atlas": 39,
-            "index": 14
+            "atlas": 59,
+            "index": 9
         },
         "Мидас": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 0
         },
         "Мистическая бензопила": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 1
         },
         "Молния Роллера": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 2
         },
         "Молот «Duff»": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 3
         },
         "Молот Джейса": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 4
         },
         "Молот Тора": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 5
         },
         "Молот": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 6
         },
         "Молоток на спину": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 7
         },
         "Монета охотника": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 8
         },
         "Монтгомери": {
-            "atlas": 40,
+            "atlas": 60,
             "index": 9
         },
         "Морган Фримен": {
-            "atlas": 40,
-            "index": 10
-        },
-        "Морской топор": {
-            "atlas": 40,
-            "index": 11
-        },
-        "Мусор 1": {
-            "atlas": 40,
-            "index": 12
-        },
-        "Мусор 2": {
-            "atlas": 40,
-            "index": 13
-        },
-        "Мусор 3": {
-            "atlas": 40,
-            "index": 14
-        },
-        "Мусор": {
-            "atlas": 41,
+            "atlas": 61,
             "index": 0
         },
-        "Мэтт Деймон": {
-            "atlas": 41,
+        "Морской топор": {
+            "atlas": 61,
             "index": 1
         },
-        "Мэттью Макконахи": {
-            "atlas": 41,
+        "Мусор 1": {
+            "atlas": 61,
             "index": 2
         },
-        "Мяч": {
-            "atlas": 41,
+        "Мусор 2": {
+            "atlas": 61,
             "index": 3
         },
-        "НФТ контейнер (гоблинский)": {
-            "atlas": 41,
+        "Мусор 3": {
+            "atlas": 61,
             "index": 4
         },
-        "НФТ контейнер (каменного человека)": {
-            "atlas": 41,
+        "Мусор": {
+            "atlas": 61,
             "index": 5
         },
-        "НФТ контейнер (обычный)": {
-            "atlas": 41,
+        "Мэтт Деймон": {
+            "atlas": 61,
             "index": 6
         },
-        "НФТ контейнер (премиум)": {
-            "atlas": 41,
+        "Мэттью Макконахи": {
+            "atlas": 61,
             "index": 7
         },
-        "НФТ контейнер (средний)": {
-            "atlas": 41,
+        "Мяч": {
+            "atlas": 61,
             "index": 8
         },
-        "Набор Лимитки": {
-            "atlas": 41,
+        "НФТ контейнер (гоблинский)": {
+            "atlas": 61,
             "index": 9
         },
+        "НФТ контейнер (каменного человека)": {
+            "atlas": 62,
+            "index": 0
+        },
+        "НФТ контейнер (обычный)": {
+            "atlas": 62,
+            "index": 1
+        },
+        "НФТ контейнер (премиум)": {
+            "atlas": 62,
+            "index": 2
+        },
+        "НФТ контейнер (средний)": {
+            "atlas": 62,
+            "index": 3
+        },
+        "Набор Лимитки": {
+            "atlas": 62,
+            "index": 4
+        },
         "Набор для починки сети": {
-            "atlas": 41,
-            "index": 10
+            "atlas": 62,
+            "index": 5
         },
         "Набор для починки": {
-            "atlas": 41,
-            "index": 11
+            "atlas": 62,
+            "index": 6
         },
         "Набор переработки декораций": {
-            "atlas": 41,
-            "index": 12
+            "atlas": 62,
+            "index": 7
         },
         "Набор реставрации для аксессуара": {
-            "atlas": 41,
-            "index": 13
+            "atlas": 62,
+            "index": 8
         },
         "Нагнетатель (sport+)": {
-            "atlas": 41,
-            "index": 14
+            "atlas": 62,
+            "index": 9
         },
         "Настенный цветок 1": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 0
         },
         "Настенный цветок 2": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 1
         },
         "Нашивка Защита 3 LVL": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 2
         },
         "Нашивка Защита От Оглушения": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 3
         },
         "Нашивка Защитная пластина": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 4
         },
         "Нашивка Мастер Рыболовли": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 5
         },
         "Нашивка Огненные Пули": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 6
         },
         "Нашивка Урон 3 LVL": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 7
         },
         "Нашивка Экономиста": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 8
         },
         "Нашивка на аксессуар(защита)": {
-            "atlas": 42,
+            "atlas": 63,
             "index": 9
         },
         "Нашивка на аксессуар(макс. хп)": {
-            "atlas": 42,
-            "index": 10
-        },
-        "Нашивка на аксессуар(регенерация)": {
-            "atlas": 42,
-            "index": 11
-        },
-        "Нашивка на аксессуар(удача)": {
-            "atlas": 42,
-            "index": 12
-        },
-        "Нашивка на аксессуар(урон)": {
-            "atlas": 42,
-            "index": 13
-        },
-        "Нашивка на бронежилет (Защита от оглушения)": {
-            "atlas": 42,
-            "index": 14
-        },
-        "Нашивка на скин (Бег Си Джея)": {
-            "atlas": 43,
+            "atlas": 64,
             "index": 0
         },
-        "Нашивка на чемодан (Снижение урона противника)": {
-            "atlas": 43,
+        "Нашивка на аксессуар(регенерация)": {
+            "atlas": 64,
             "index": 1
         },
-        "Нашивка снижения урона противника": {
-            "atlas": 43,
+        "Нашивка на аксессуар(удача)": {
+            "atlas": 64,
             "index": 2
         },
-        "Наёмный Фермер": {
-            "atlas": 43,
+        "Нашивка на аксессуар(урон)": {
+            "atlas": 64,
             "index": 3
         },
-        "Небесный чемодан": {
-            "atlas": 43,
+        "Нашивка на бронежилет (Защита от оглушения)": {
+            "atlas": 64,
             "index": 4
         },
-        "Небольшое дерево#1": {
-            "atlas": 43,
+        "Нашивка на скин (Бег Си Джея)": {
+            "atlas": 64,
             "index": 5
         },
-        "Небольшое дерево#2": {
-            "atlas": 43,
+        "Нашивка на чемодан (Снижение урона противника)": {
+            "atlas": 64,
             "index": 6
         },
-        "Небольшое дерево#3": {
-            "atlas": 43,
+        "Нашивка снижения урона противника": {
+            "atlas": 64,
             "index": 7
         },
-        "Неоновая маска маньяка": {
-            "atlas": 43,
+        "Наёмный Фермер": {
+            "atlas": 64,
             "index": 8
         },
-        "Неоновая подсветка (настраиваемая)": {
-            "atlas": 43,
+        "Небесный чемодан": {
+            "atlas": 64,
             "index": 9
         },
+        "Небольшое дерево#1": {
+            "atlas": 65,
+            "index": 0
+        },
+        "Небольшое дерево#2": {
+            "atlas": 65,
+            "index": 1
+        },
+        "Небольшое дерево#3": {
+            "atlas": 65,
+            "index": 2
+        },
+        "Неоновая маска маньяка": {
+            "atlas": 65,
+            "index": 3
+        },
+        "Неоновая подсветка (настраиваемая)": {
+            "atlas": 65,
+            "index": 4
+        },
         "Николас Кейдж": {
-            "atlas": 43,
-            "index": 10
+            "atlas": 65,
+            "index": 5
         },
         "Нимб 5 Звезд": {
-            "atlas": 43,
-            "index": 11
+            "atlas": 65,
+            "index": 6
         },
         "Нимб кольца всевластия": {
-            "atlas": 43,
-            "index": 12
+            "atlas": 65,
+            "index": 7
         },
         "Ниндзя": {
-            "atlas": 43,
-            "index": 13
+            "atlas": 65,
+            "index": 8
         },
         "Новогодний компаньон": {
-            "atlas": 43,
-            "index": 14
+            "atlas": 65,
+            "index": 9
         },
         "Новогодний олень": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 0
         },
         "Новогодняя шапка": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 1
         },
         "Новый VIN Номер": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 2
         },
         "Нож [предмет]": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 3
         },
         "Ноутбук": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 4
         },
         "Оби-Ван Кеноби": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 5
         },
         "Облачный нимб": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 6
         },
         "Обнуление пробега для авто": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 7
         },
         "Обрез (активный аксессуар)": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 8
         },
         "Обрубленный труп (голова)": {
-            "atlas": 44,
+            "atlas": 66,
             "index": 9
         },
         "Обрубленный труп (нога)": {
-            "atlas": 44,
-            "index": 10
-        },
-        "Обрубленный труп (рука)": {
-            "atlas": 44,
-            "index": 11
-        },
-        "Обрубленный труп (тело)": {
-            "atlas": 44,
-            "index": 12
-        },
-        "Объект: Большой куст": {
-            "atlas": 44,
-            "index": 13
-        },
-        "Объект: Двойные качели": {
-            "atlas": 44,
-            "index": 14
-        },
-        "Объект: Дерево 1": {
-            "atlas": 45,
+            "atlas": 67,
             "index": 0
         },
-        "Объект: Дерево 2": {
-            "atlas": 45,
+        "Обрубленный труп (рука)": {
+            "atlas": 67,
             "index": 1
         },
-        "Объект: Дерево 3": {
-            "atlas": 45,
+        "Обрубленный труп (тело)": {
+            "atlas": 67,
             "index": 2
         },
-        "Объект: Джакузи": {
-            "atlas": 45,
+        "Объект: Большой куст": {
+            "atlas": 67,
             "index": 3
         },
-        "Объект: Дом на дереве": {
-            "atlas": 45,
+        "Объект: Двойные качели": {
+            "atlas": 67,
             "index": 4
         },
-        "Объект: Домашний склад": {
-            "atlas": 45,
+        "Объект: Дерево 1": {
+            "atlas": 67,
             "index": 5
         },
-        "Объект: Задумчивая лягушка": {
-            "atlas": 45,
+        "Объект: Дерево 2": {
+            "atlas": 67,
             "index": 6
         },
-        "Объект: Каменная надпись Advance": {
-            "atlas": 45,
+        "Объект: Дерево 3": {
+            "atlas": 67,
             "index": 7
         },
-        "Объект: Магический дата центр": {
-            "atlas": 45,
+        "Объект: Джакузи": {
+            "atlas": 67,
             "index": 8
         },
-        "Объект: Пальма 1": {
-            "atlas": 45,
+        "Объект: Дом на дереве": {
+            "atlas": 67,
             "index": 9
         },
+        "Объект: Домашний склад": {
+            "atlas": 68,
+            "index": 0
+        },
+        "Объект: Задумчивая лягушка": {
+            "atlas": 68,
+            "index": 1
+        },
+        "Объект: Каменная надпись Advance": {
+            "atlas": 68,
+            "index": 2
+        },
+        "Объект: Магический дата центр": {
+            "atlas": 68,
+            "index": 3
+        },
+        "Объект: Пальма 1": {
+            "atlas": 68,
+            "index": 4
+        },
         "Объект: Пальма 2": {
-            "atlas": 45,
-            "index": 10
+            "atlas": 68,
+            "index": 5
         },
         "Объект: Сарай Миража": {
-            "atlas": 45,
-            "index": 11
+            "atlas": 68,
+            "index": 6
         },
         "Объект: Статуя Майя": {
-            "atlas": 45,
-            "index": 12
+            "atlas": 68,
+            "index": 7
         },
         "Объект: Теплица": {
-            "atlas": 45,
-            "index": 13
+            "atlas": 68,
+            "index": 8
         },
         "Объект: Убийственная будка": {
-            "atlas": 45,
-            "index": 14
+            "atlas": 68,
+            "index": 9
         },
         "Объект: Флаг Advance": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 0
         },
         "Объект: Шезлонги": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 1
         },
         "Объект: Я люблю Diamond": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 2
         },
         "Огненная Кирка": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 3
         },
         "Огненный Бронежилет": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 4
         },
         "Огненный фонарь": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 5
         },
         "Огнетушитель": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 6
         },
         "Ограждение": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 7
         },
         "Огромное сердце": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 8
         },
         "Оксана Чемпионка": {
-            "atlas": 46,
+            "atlas": 69,
             "index": 9
         },
         "Оранжевое граффити": {
-            "atlas": 46,
-            "index": 10
-        },
-        "Орудие": {
-            "atlas": 46,
-            "index": 11
-        },
-        "Оружие АК-47": {
-            "atlas": 46,
-            "index": 12
-        },
-        "Оружие Дигл": {
-            "atlas": 46,
-            "index": 13
-        },
-        "Оружие Дробовик#1": {
-            "atlas": 46,
-            "index": 14
-        },
-        "Оружие Дробовик#2": {
-            "atlas": 47,
+            "atlas": 70,
             "index": 0
         },
-        "Оружие Дробовик#3": {
-            "atlas": 47,
+        "Орудие": {
+            "atlas": 70,
             "index": 1
         },
-        "Оружие М4": {
-            "atlas": 47,
+        "Оружие АК-47": {
+            "atlas": 70,
             "index": 2
         },
-        "Оружие МП-5": {
-            "atlas": 47,
+        "Оружие Дигл": {
+            "atlas": 70,
             "index": 3
         },
-        "Оружие Револьвер": {
-            "atlas": 47,
+        "Оружие Дробовик#1": {
+            "atlas": 70,
             "index": 4
         },
-        "Оружие Снайперская винтовка": {
-            "atlas": 47,
+        "Оружие Дробовик#2": {
+            "atlas": 70,
             "index": 5
         },
-        "Оружие бамбли Би": {
-            "atlas": 47,
+        "Оружие Дробовик#3": {
+            "atlas": 70,
             "index": 6
         },
-        "Осколок Bell 001": {
-            "atlas": 47,
+        "Оружие М4": {
+            "atlas": 70,
             "index": 7
         },
-        "Осколок Brabus Rocket GTS": {
-            "atlas": 47,
+        "Оружие МП-5": {
+            "atlas": 70,
             "index": 8
         },
-        "Осколок RGB Чемодан": {
-            "atlas": 47,
+        "Оружие Револьвер": {
+            "atlas": 70,
             "index": 9
         },
+        "Оружие Снайперская винтовка": {
+            "atlas": 71,
+            "index": 0
+        },
+        "Оружие бамбли Би": {
+            "atlas": 71,
+            "index": 1
+        },
+        "Осколок Bell 001": {
+            "atlas": 71,
+            "index": 2
+        },
+        "Осколок Brabus Rocket GTS": {
+            "atlas": 71,
+            "index": 3
+        },
+        "Осколок RGB Чемодан": {
+            "atlas": 71,
+            "index": 4
+        },
         "Осколок Бронежилета Генерала": {
-            "atlas": 47,
-            "index": 10
+            "atlas": 71,
+            "index": 5
         },
         "Осколок Дьявольский чемодан": {
-            "atlas": 47,
-            "index": 11
+            "atlas": 71,
+            "index": 6
         },
         "Осколок Золотой Нож": {
-            "atlas": 47,
-            "index": 12
+            "atlas": 71,
+            "index": 7
         },
         "Осколок Истока": {
-            "atlas": 47,
-            "index": 13
+            "atlas": 71,
+            "index": 8
         },
         "Осколок Контейнера каменного человека": {
-            "atlas": 47,
-            "index": 14
+            "atlas": 71,
+            "index": 9
         },
         "Осколок Магический чемодан": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 0
         },
         "Осколок Молота Тора": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 1
         },
         "Осколок Небесный чемодан": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 2
         },
         "Осколок Скина Джек Воробей": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 3
         },
         "Осколок Супер Лопаты": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 4
         },
         "Осколок Тайника собирателя": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 5
         },
         "Осколок Термо-рюкзака": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 6
         },
         "Осколок Хоумлендера": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 7
         },
         "Осколок Чемодан Железного Человека": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 8
         },
         "Осколок Чемодан зомби": {
-            "atlas": 48,
+            "atlas": 72,
             "index": 9
         },
         "Осколок Читерского Clover": {
-            "atlas": 48,
-            "index": 10
-        },
-        "Осколок Энергетический Цепь «Махинатор»": {
-            "atlas": 48,
-            "index": 11
-        },
-        "Осколок Энергетический махинатор": {
-            "atlas": 48,
-            "index": 12
-        },
-        "Осколок Энергетический щит": {
-            "atlas": 48,
-            "index": 13
-        },
-        "Осколок Энергетических Часов Миража": {
-            "atlas": 48,
-            "index": 14
-        },
-        "Осколок Энергетических Часов": {
-            "atlas": 49,
+            "atlas": 73,
             "index": 0
         },
-        "Осколок игрушки": {
-            "atlas": 49,
+        "Осколок Энергетический Цепь «Махинатор»": {
+            "atlas": 73,
             "index": 1
         },
-        "Осколок космический нож": {
-            "atlas": 49,
+        "Осколок Энергетический махинатор": {
+            "atlas": 73,
             "index": 2
         },
-        "Осколок левый ботинок таноса": {
-            "atlas": 49,
+        "Осколок Энергетический щит": {
+            "atlas": 73,
             "index": 3
         },
-        "Осколок нашивки Тьмы": {
-            "atlas": 49,
+        "Осколок Энергетических Часов Миража": {
+            "atlas": 73,
             "index": 4
         },
-        "Осколок нашивки Энергии": {
-            "atlas": 49,
+        "Осколок Энергетических Часов": {
+            "atlas": 73,
             "index": 5
         },
-        "Осколок нашивки монстра": {
-            "atlas": 49,
+        "Осколок игрушки": {
+            "atlas": 73,
             "index": 6
         },
-        "Осколок правый ботинок таноса": {
-            "atlas": 49,
+        "Осколок космический нож": {
+            "atlas": 73,
             "index": 7
         },
-        "Осколок сертификата Mclaren 570s Carbon": {
-            "atlas": 49,
+        "Осколок левый ботинок таноса": {
+            "atlas": 73,
             "index": 8
         },
-        "Осколок чемодана Криминала": {
-            "atlas": 49,
+        "Осколок нашивки Тьмы": {
+            "atlas": 73,
             "index": 9
         },
+        "Осколок нашивки Энергии": {
+            "atlas": 74,
+            "index": 0
+        },
+        "Осколок нашивки монстра": {
+            "atlas": 74,
+            "index": 1
+        },
+        "Осколок правый ботинок таноса": {
+            "atlas": 74,
+            "index": 2
+        },
+        "Осколок сертификата Mclaren 570s Carbon": {
+            "atlas": 74,
+            "index": 3
+        },
+        "Осколок чемодана Криминала": {
+            "atlas": 74,
+            "index": 4
+        },
         "Особый кейс": {
-            "atlas": 49,
-            "index": 10
+            "atlas": 74,
+            "index": 5
         },
         "Отмычка от тюремной двери": {
-            "atlas": 49,
-            "index": 11
+            "atlas": 74,
+            "index": 6
         },
         "Отражающая нашивка 3 LVL": {
-            "atlas": 49,
-            "index": 12
+            "atlas": 74,
+            "index": 7
         },
         "Охлаждающая жидкость для Arizona Video Card": {
-            "atlas": 49,
-            "index": 13
+            "atlas": 74,
+            "index": 8
         },
         "Охлаждающая жидкость для видеокарты": {
-            "atlas": 49,
-            "index": 14
+            "atlas": 74,
+            "index": 9
         },
         "Очки Apple Vision Pro": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 0
         },
         "Павел Дуров": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 1
         },
         "Пакет мусора": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 2
         },
         "Пакетик с укропом 1": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 3
         },
         "Пакетик с укропом 2": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 4
         },
         "Пальто Полли": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 5
         },
         "Пальто Томаса": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 6
         },
         "Папоротник": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 7
         },
         "Патрик Бэйтман": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 8
         },
         "Патрон на грудь": {
-            "atlas": 50,
+            "atlas": 75,
             "index": 9
         },
         "Паучьи Лапы": {
-            "atlas": 50,
-            "index": 10
-        },
-        "Пауэр": {
-            "atlas": 50,
-            "index": 11
-        },
-        "Пачка с деньгами": {
-            "atlas": 50,
-            "index": 12
-        },
-        "Переносной Верстак Миража": {
-            "atlas": 50,
-            "index": 13
-        },
-        "Переносной ларек Рика 1": {
-            "atlas": 50,
-            "index": 14
-        },
-        "Персональный металлоискатель": {
-            "atlas": 51,
+            "atlas": 76,
             "index": 0
         },
-        "Перчатка Вай": {
-            "atlas": 51,
+        "Пауэр": {
+            "atlas": 76,
             "index": 1
         },
-        "Перчатка Мидаса": {
-            "atlas": 51,
+        "Пачка с деньгами": {
+            "atlas": 76,
             "index": 2
         },
-        "Пиратский компас": {
-            "atlas": 51,
+        "Переносной Верстак Миража": {
+            "atlas": 76,
             "index": 3
         },
-        "Пиратский фонарь": {
-            "atlas": 51,
+        "Переносной ларек Рика 1": {
+            "atlas": 76,
             "index": 4
         },
-        "Пицца": {
-            "atlas": 51,
+        "Персональный металлоискатель": {
+            "atlas": 76,
             "index": 5
         },
-        "Пламя души": {
-            "atlas": 51,
+        "Перчатка Вай": {
+            "atlas": 76,
             "index": 6
         },
-        "Пластиковая мусорка": {
-            "atlas": 51,
+        "Перчатка Мидаса": {
+            "atlas": 76,
             "index": 7
         },
-        "Платиновый ящик с секретной машиной": {
-            "atlas": 51,
+        "Пиратский компас": {
+            "atlas": 76,
             "index": 8
         },
-        "Пляжный куст": {
-            "atlas": 51,
+        "Пиратский фонарь": {
+            "atlas": 76,
             "index": 9
         },
+        "Пицца": {
+            "atlas": 77,
+            "index": 0
+        },
+        "Пламя души": {
+            "atlas": 77,
+            "index": 1
+        },
+        "Пластиковая мусорка": {
+            "atlas": 77,
+            "index": 2
+        },
+        "Платиновый ящик с секретной машиной": {
+            "atlas": 77,
+            "index": 3
+        },
+        "Пляжный куст": {
+            "atlas": 77,
+            "index": 4
+        },
         "Повешенная туша": {
-            "atlas": 51,
-            "index": 10
+            "atlas": 77,
+            "index": 5
         },
         "Повязка на шею": {
-            "atlas": 51,
-            "index": 11
+            "atlas": 77,
+            "index": 6
         },
         "Подвеска (sport+)": {
-            "atlas": 51,
-            "index": 12
+            "atlas": 77,
+            "index": 7
         },
         "Подвеска 1980": {
-            "atlas": 51,
-            "index": 13
+            "atlas": 77,
+            "index": 8
         },
         "Поддельное свидетельство": {
-            "atlas": 51,
-            "index": 14
+            "atlas": 77,
+            "index": 9
         },
         "Полицейский щит": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 0
         },
         "Полли из Бирмингема": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 1
         },
         "Портальная пушка": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 2
         },
         "Правая космическая обувь": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 3
         },
         "Праздничное яйцо (пасха)": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 4
         },
         "Праздничный бронежилет #1": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 5
         },
         "Праздничный бронежилет #2": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 6
         },
         "Праздничный торт [1780]": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 7
         },
         "Праздничный торт [1931]": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 8
         },
         "Преобразователь: Мистер Дудец": {
-            "atlas": 52,
+            "atlas": 78,
             "index": 9
         },
         "Призрачная тыква": {
-            "atlas": 52,
-            "index": 10
-        },
-        "Прозрачная мусорка": {
-            "atlas": 52,
-            "index": 11
-        },
-        "Проклятое дерево": {
-            "atlas": 52,
-            "index": 12
-        },
-        "Пророк Санбой": {
-            "atlas": 52,
-            "index": 13
-        },
-        "Протеин": {
-            "atlas": 52,
-            "index": 14
-        },
-        "Протокол взвешивания": {
-            "atlas": 53,
+            "atlas": 79,
             "index": 0
         },
-        "Прототип": {
-            "atlas": 53,
+        "Прозрачная мусорка": {
+            "atlas": 79,
             "index": 1
         },
-        "Профессиональная рукоятка": {
-            "atlas": 53,
+        "Проклятое дерево": {
+            "atlas": 79,
             "index": 2
         },
-        "Профессиональное цевье": {
-            "atlas": 53,
+        "Пророк Санбой": {
+            "atlas": 79,
             "index": 3
         },
-        "Профессиональный компенсатор": {
-            "atlas": 53,
+        "Протеин": {
+            "atlas": 79,
             "index": 4
         },
-        "Профессиональный магазин": {
-            "atlas": 53,
+        "Протокол взвешивания": {
+            "atlas": 79,
             "index": 5
         },
-        "Профессиональный металлоискатель": {
-            "atlas": 53,
+        "Прототип": {
+            "atlas": 79,
             "index": 6
         },
-        "Профессиональный приклад": {
-            "atlas": 53,
+        "Профессиональная рукоятка": {
+            "atlas": 79,
             "index": 7
         },
-        "Профессиональный прицел": {
-            "atlas": 53,
+        "Профессиональное цевье": {
+            "atlas": 79,
             "index": 8
         },
-        "Прочная ткань": {
-            "atlas": 53,
+        "Профессиональный компенсатор": {
+            "atlas": 79,
             "index": 9
         },
+        "Профессиональный магазин": {
+            "atlas": 80,
+            "index": 0
+        },
+        "Профессиональный металлоискатель": {
+            "atlas": 80,
+            "index": 1
+        },
+        "Профессиональный приклад": {
+            "atlas": 80,
+            "index": 2
+        },
+        "Профессиональный прицел": {
+            "atlas": 80,
+            "index": 3
+        },
+        "Прочная ткань": {
+            "atlas": 80,
+            "index": 4
+        },
         "Пчела": {
-            "atlas": 53,
-            "index": 10
+            "atlas": 80,
+            "index": 5
         },
         "Радужный подарок": {
-            "atlas": 53,
-            "index": 11
+            "atlas": 80,
+            "index": 6
         },
         "Разноцветное яйцо": {
-            "atlas": 53,
-            "index": 12
+            "atlas": 80,
+            "index": 7
         },
         "Райна Гослинг": {
-            "atlas": 53,
-            "index": 13
+            "atlas": 80,
+            "index": 8
         },
         "Распредвал (sport+)": {
-            "atlas": 53,
-            "index": 14
+            "atlas": 80,
+            "index": 9
         },
         "Распределитель лимитки": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 0
         },
         "Растение в горшке 1": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 1
         },
         "Растение в горшке 2": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 2
         },
         "Растение в горшке 3": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 3
         },
         "Растение в горшке 4": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 4
         },
         "Растение в форме лавки": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 5
         },
         "Рваная бандана Aztecas": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 6
         },
         "Рваная бандана Ballas": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 7
         },
         "Рваная бандана Grove": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 8
         },
         "Рваная бандана Night Wolves": {
-            "atlas": 54,
+            "atlas": 81,
             "index": 9
         },
         "Рваная бандана Rifa": {
-            "atlas": 54,
-            "index": 10
-        },
-        "Рваная бандана Vagos": {
-            "atlas": 54,
-            "index": 11
-        },
-        "Рваная повязка Aztecas": {
-            "atlas": 54,
-            "index": 12
-        },
-        "Рваная повязка Ballas": {
-            "atlas": 54,
-            "index": 13
-        },
-        "Рваная повязка Grove": {
-            "atlas": 54,
-            "index": 14
-        },
-        "Рваная повязка La Cosa Nostra": {
-            "atlas": 55,
+            "atlas": 82,
             "index": 0
         },
-        "Рваная повязка Night Wolves": {
-            "atlas": 55,
+        "Рваная бандана Vagos": {
+            "atlas": 82,
             "index": 1
         },
-        "Рваная повязка Rifa": {
-            "atlas": 55,
+        "Рваная повязка Aztecas": {
+            "atlas": 82,
             "index": 2
         },
-        "Рваная повязка Russian Mafia": {
-            "atlas": 55,
+        "Рваная повязка Ballas": {
+            "atlas": 82,
             "index": 3
         },
-        "Рваная повязка Vagos": {
-            "atlas": 55,
+        "Рваная повязка Grove": {
+            "atlas": 82,
             "index": 4
         },
-        "Рваная повязка Warlock MC": {
-            "atlas": 55,
+        "Рваная повязка La Cosa Nostra": {
+            "atlas": 82,
             "index": 5
         },
-        "Рваная повязка Yakuza": {
-            "atlas": 55,
+        "Рваная повязка Night Wolves": {
+            "atlas": 82,
             "index": 6
         },
-        "Рваная футболка Aztecas": {
-            "atlas": 55,
+        "Рваная повязка Rifa": {
+            "atlas": 82,
             "index": 7
         },
-        "Рваная футболка Ballas": {
-            "atlas": 55,
+        "Рваная повязка Russian Mafia": {
+            "atlas": 82,
             "index": 8
         },
-        "Рваная футболка Grove": {
-            "atlas": 55,
+        "Рваная повязка Vagos": {
+            "atlas": 82,
             "index": 9
         },
+        "Рваная повязка Warlock MC": {
+            "atlas": 83,
+            "index": 0
+        },
+        "Рваная повязка Yakuza": {
+            "atlas": 83,
+            "index": 1
+        },
+        "Рваная футболка Aztecas": {
+            "atlas": 83,
+            "index": 2
+        },
+        "Рваная футболка Ballas": {
+            "atlas": 83,
+            "index": 3
+        },
+        "Рваная футболка Grove": {
+            "atlas": 83,
+            "index": 4
+        },
         "Рваная футболка La Cosa Nostra": {
-            "atlas": 55,
-            "index": 10
+            "atlas": 83,
+            "index": 5
         },
         "Рваная футболка Night Wolves": {
-            "atlas": 55,
-            "index": 11
+            "atlas": 83,
+            "index": 6
         },
         "Рваная футболка Rifa": {
-            "atlas": 55,
-            "index": 12
+            "atlas": 83,
+            "index": 7
         },
         "Рваная футболка Russian Mafia": {
-            "atlas": 55,
-            "index": 13
+            "atlas": 83,
+            "index": 8
         },
         "Рваная футболка Vagos": {
-            "atlas": 55,
-            "index": 14
+            "atlas": 83,
+            "index": 9
         },
         "Рваная футболка Warlock MC": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 0
         },
         "Рваная футболка Yakuza": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 1
         },
         "Рваная шляпа La Cosa Nostra": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 2
         },
         "Рваная шляпа Russian Mafia": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 3
         },
         "Рваная шляпа Warlock MC": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 4
         },
         "Рваная шляпа Yakuza": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 5
         },
         "Рваные штаны Aztecas": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 6
         },
         "Рваные штаны Ballas": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 7
         },
         "Рваные штаны Grove": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 8
         },
         "Рваные штаны La Cosa Nostra": {
-            "atlas": 56,
+            "atlas": 84,
             "index": 9
         },
         "Рваные штаны Night Wolves": {
-            "atlas": 56,
-            "index": 10
-        },
-        "Рваные штаны Rifa": {
-            "atlas": 56,
-            "index": 11
-        },
-        "Рваные штаны Russian Mafia": {
-            "atlas": 56,
-            "index": 12
-        },
-        "Рваные штаны Vagos": {
-            "atlas": 56,
-            "index": 13
-        },
-        "Рваные штаны Warlock MC": {
-            "atlas": 56,
-            "index": 14
-        },
-        "Рваные штаны Yakuza": {
-            "atlas": 57,
+            "atlas": 85,
             "index": 0
         },
-        "Реактивный Ранец С Крыльями": {
-            "atlas": 57,
+        "Рваные штаны Rifa": {
+            "atlas": 85,
             "index": 1
         },
-        "Ребекка": {
-            "atlas": 57,
+        "Рваные штаны Russian Mafia": {
+            "atlas": 85,
             "index": 2
         },
-        "Редкие материалы": {
-            "atlas": 57,
+        "Рваные штаны Vagos": {
+            "atlas": 85,
             "index": 3
         },
-        "Рекламная вывеска": {
-            "atlas": 57,
+        "Рваные штаны Warlock MC": {
+            "atlas": 85,
             "index": 4
         },
-        "Респиратор": {
-            "atlas": 57,
+        "Рваные штаны Yakuza": {
+            "atlas": 85,
             "index": 5
         },
-        "Рецепт адреналина": {
-            "atlas": 57,
+        "Реактивный Ранец С Крыльями": {
+            "atlas": 85,
             "index": 6
         },
-        "Рецепт: Кольцо всевластия": {
-            "atlas": 57,
+        "Ребекка": {
+            "atlas": 85,
             "index": 7
         },
-        "Рецепт: Коса марси": {
-            "atlas": 57,
+        "Редкие материалы": {
+            "atlas": 85,
             "index": 8
         },
-        "Рилай": {
-            "atlas": 57,
+        "Рекламная вывеска": {
+            "atlas": 85,
             "index": 9
         },
+        "Респиратор": {
+            "atlas": 86,
+            "index": 0
+        },
+        "Рецепт адреналина": {
+            "atlas": 86,
+            "index": 1
+        },
+        "Рецепт: Кольцо всевластия": {
+            "atlas": 86,
+            "index": 2
+        },
+        "Рецепт: Коса марси": {
+            "atlas": 86,
+            "index": 3
+        },
+        "Рилай": {
+            "atlas": 86,
+            "index": 4
+        },
         "Розовое граффити": {
-            "atlas": 57,
-            "index": 10
+            "atlas": 86,
+            "index": 5
         },
         "Розовый DELETED [предмет]": {
-            "atlas": 57,
-            "index": 11
+            "atlas": 86,
+            "index": 6
         },
         "Розовый неоновый свет": {
-            "atlas": 57,
-            "index": 12
+            "atlas": 86,
+            "index": 7
         },
         "Рубашка Полли": {
-            "atlas": 57,
-            "index": 13
+            "atlas": 86,
+            "index": 8
         },
         "Рубашка Томаса": {
-            "atlas": 57,
-            "index": 14
+            "atlas": 86,
+            "index": 9
         },
         "Рука Бесконечности": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 0
         },
         "Рука Халка": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 1
         },
         "Руки Сэта": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 2
         },
         "Рулеточный бустер": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 3
         },
         "Рулеточный компас": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 4
         },
         "Русский боевой топор": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 5
         },
         "Рыбацкий рюкзак": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 6
         },
         "Рыбная монета": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 7
         },
         "Рыбная приманка": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 8
         },
         "Рюкзак Louis Vuitton": {
-            "atlas": 58,
+            "atlas": 87,
             "index": 9
         },
         "Рюкзак Черепашки-ниндзя": {
-            "atlas": 58,
-            "index": 10
-        },
-        "Рюкзак Ядоставка": {
-            "atlas": 58,
-            "index": 11
-        },
-        "Рюкзак с шипами": {
-            "atlas": 58,
-            "index": 12
-        },
-        "СУПЕР НФТ Контейнер": {
-            "atlas": 58,
-            "index": 13
-        },
-        "Сабрина": {
-            "atlas": 58,
-            "index": 14
-        },
-        "Саша Белый [6189]": {
-            "atlas": 59,
+            "atlas": 88,
             "index": 0
         },
-        "Саша Белый [7767]": {
-            "atlas": 59,
+        "Рюкзак Ядоставка": {
+            "atlas": 88,
             "index": 1
         },
-        "Сейф с деньгами": {
-            "atlas": 59,
+        "Рюкзак с шипами": {
+            "atlas": 88,
             "index": 2
         },
-        "Секретный аксессуар": {
-            "atlas": 59,
+        "СУПЕР НФТ Контейнер": {
+            "atlas": 88,
             "index": 3
         },
-        "Семейный талон": {
-            "atlas": 59,
+        "Сабрина": {
+            "atlas": 88,
             "index": 4
         },
-        "Семена укропа": {
-            "atlas": 59,
+        "Саша Белый [6189]": {
+            "atlas": 88,
             "index": 5
         },
-        "Семечка кокосового дерева": {
-            "atlas": 59,
+        "Саша Белый [7767]": {
+            "atlas": 88,
             "index": 6
         },
-        "Семечка сливового дерева": {
-            "atlas": 59,
+        "Сейф с деньгами": {
+            "atlas": 88,
             "index": 7
         },
-        "Семечка яблочного дерева": {
-            "atlas": 59,
+        "Секретный аксессуар": {
+            "atlas": 88,
             "index": 8
         },
-        "Серая ваза с цветком": {
-            "atlas": 59,
+        "Семейный талон": {
+            "atlas": 88,
             "index": 9
         },
+        "Семена укропа": {
+            "atlas": 89,
+            "index": 0
+        },
+        "Семечка кокосового дерева": {
+            "atlas": 89,
+            "index": 1
+        },
+        "Семечка сливового дерева": {
+            "atlas": 89,
+            "index": 2
+        },
+        "Семечка яблочного дерева": {
+            "atlas": 89,
+            "index": 3
+        },
+        "Серая ваза с цветком": {
+            "atlas": 89,
+            "index": 4
+        },
         "Серая колонка": {
-            "atlas": 59,
-            "index": 10
+            "atlas": 89,
+            "index": 5
         },
         "Серая мусорка": {
-            "atlas": 59,
-            "index": 11
+            "atlas": 89,
+            "index": 6
         },
         "Сергей Мавроди": {
-            "atlas": 59,
-            "index": 12
+            "atlas": 89,
+            "index": 7
         },
         "Серебро": {
-            "atlas": 59,
-            "index": 13
+            "atlas": 89,
+            "index": 8
         },
         "Серебряная рулетка": {
-            "atlas": 59,
-            "index": 14
+            "atlas": 89,
+            "index": 9
         },
         "Серебряный крюк": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 0
         },
         "Серт Охранник Скуби Ду ( Легендарный )": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 1
         },
         "Сертефикат на безлимитную доставку бочек": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 2
         },
         "Сертефикат охранника Элли": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 3
         },
         "Сертификат BMW M4 F82": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 4
         },
         "Сертификат BMW М3 Touring": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 5
         },
         "Сертификат BMX": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 6
         },
         "Сертификат Bike": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 7
         },
         "Сертификат C63 Coupe": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 8
         },
         "Сертификат Faggio": {
-            "atlas": 60,
+            "atlas": 90,
             "index": 9
         },
         "Сертификат Kawasaki NInja xr1000": {
-            "atlas": 60,
-            "index": 10
-        },
-        "Сертификат Lotus Emira": {
-            "atlas": 60,
-            "index": 11
-        },
-        "Сертификат Lotus Esprit V8": {
-            "atlas": 60,
-            "index": 12
-        },
-        "Сертификат Mercedes e53 AMG 2025": {
-            "atlas": 60,
-            "index": 13
-        },
-        "Сертификат Mountain Bike": {
-            "atlas": 60,
-            "index": 14
-        },
-        "Сертификат Pizzaboy": {
-            "atlas": 61,
+            "atlas": 91,
             "index": 0
         },
-        "Сертификат Porsche Cayenne Turbo GT 2022": {
-            "atlas": 61,
+        "Сертификат Lotus Emira": {
+            "atlas": 91,
             "index": 1
         },
-        "Сертификат TurboS 1980": {
-            "atlas": 61,
+        "Сертификат Lotus Esprit V8": {
+            "atlas": 91,
             "index": 2
         },
-        "Сертификат Volkswagen Amarok v6": {
-            "atlas": 61,
+        "Сертификат Mercedes e53 AMG 2025": {
+            "atlas": 91,
             "index": 3
         },
-        "Сертификат Дополнения VIP": {
-            "atlas": 61,
+        "Сертификат Mountain Bike": {
+            "atlas": 91,
             "index": 4
         },
-        "Сертификат бесконечного дополнения VIP": {
-            "atlas": 61,
+        "Сертификат Pizzaboy": {
+            "atlas": 91,
             "index": 5
         },
-        "Сертификат на подарок": {
-            "atlas": 61,
+        "Сертификат Porsche Cayenne Turbo GT 2022": {
+            "atlas": 91,
             "index": 6
         },
-        "Сертификат охранника T-60 Black Ops": {
-            "atlas": 61,
+        "Сертификат TurboS 1980": {
+            "atlas": 91,
             "index": 7
         },
-        "Сертификат охранника T-60 Power Armor Base": {
-            "atlas": 61,
+        "Сертификат Volkswagen Amarok v6": {
+            "atlas": 91,
             "index": 8
         },
-        "Сертификат охранника T-60 Red Rocket": {
-            "atlas": 61,
+        "Сертификат Дополнения VIP": {
+            "atlas": 91,
             "index": 9
         },
+        "Сертификат бесконечного дополнения VIP": {
+            "atlas": 92,
+            "index": 0
+        },
+        "Сертификат на подарок": {
+            "atlas": 92,
+            "index": 1
+        },
+        "Сертификат охранника T-60 Black Ops": {
+            "atlas": 92,
+            "index": 2
+        },
+        "Сертификат охранника T-60 Power Armor Base": {
+            "atlas": 92,
+            "index": 3
+        },
+        "Сертификат охранника T-60 Red Rocket": {
+            "atlas": 92,
+            "index": 4
+        },
         "Серый Домофон": {
-            "atlas": 61,
-            "index": 10
+            "atlas": 92,
+            "index": 5
         },
         "Серый Пляжный Лежак": {
-            "atlas": 61,
-            "index": 11
+            "atlas": 92,
+            "index": 6
         },
         "Серый мангал": {
-            "atlas": 61,
-            "index": 12
+            "atlas": 92,
+            "index": 7
         },
         "Сеть для ловли рыбы": {
-            "atlas": 61,
-            "index": 13
+            "atlas": 92,
+            "index": 8
         },
         "Сидорович": {
-            "atlas": 61,
-            "index": 14
+            "atlas": 92,
+            "index": 9
         },
         "Сильвестр Сталлоне": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 0
         },
         "Синее граффити": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 1
         },
         "Синий Светильник": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 2
         },
         "Синий забор": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 3
         },
         "Синий неоновый свет": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 4
         },
         "Синий подарок": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 5
         },
         "Синий слон": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 6
         },
         "Синяя бочка": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 7
         },
         "Синяя мишень": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 8
         },
         "Синяя новогодняя игрушка": {
-            "atlas": 62,
+            "atlas": 93,
             "index": 9
         },
         "Сироп Характеристик Актера": {
-            "atlas": 62,
-            "index": 10
-        },
-        "Скафандр с тентаклями": {
-            "atlas": 62,
-            "index": 11
-        },
-        "Скейт (Для дома)": {
-            "atlas": 62,
-            "index": 12
-        },
-        "Скин CJ (74)": {
-            "atlas": 62,
-            "index": 13
-        },
-        "Скин Джокер": {
-            "atlas": 62,
-            "index": 14
-        },
-        "Скин Дэдпул": {
-            "atlas": 63,
+            "atlas": 94,
             "index": 0
         },
-        "Скин Хикки": {
-            "atlas": 63,
+        "Скафандр с тентаклями": {
+            "atlas": 94,
             "index": 1
         },
-        "Скин: Hillbilly (ID: 536)": {
-            "atlas": 63,
+        "Скейт (Для дома)": {
+            "atlas": 94,
             "index": 2
         },
-        "Скин: Hillbilly (ID: 537)": {
-            "atlas": 63,
+        "Скин CJ (74)": {
+            "atlas": 94,
             "index": 3
         },
-        "Скин: Альтушка (ID: 1006)": {
-            "atlas": 63,
+        "Скин Джокер": {
+            "atlas": 94,
             "index": 4
         },
-        "Скин: Оборотень-человек (ID: 1050)": {
-            "atlas": 63,
+        "Скин Дэдпул": {
+            "atlas": 94,
             "index": 5
         },
-        "Скин: Спецназовец (id: 880)": {
-            "atlas": 63,
+        "Скин Хикки": {
+            "atlas": 94,
             "index": 6
         },
-        "Скин: Суидни Суини (ID: 1032)": {
-            "atlas": 63,
+        "Скин: Hillbilly (ID: 536)": {
+            "atlas": 94,
             "index": 7
         },
-        "Складная магическая лавка": {
-            "atlas": 63,
+        "Скин: Hillbilly (ID: 537)": {
+            "atlas": 94,
             "index": 8
         },
-        "Складная мусорная лавка": {
-            "atlas": 63,
+        "Скин: Альтушка (ID: 1006)": {
+            "atlas": 94,
             "index": 9
         },
+        "Скин: Оборотень-человек (ID: 1050)": {
+            "atlas": 95,
+            "index": 0
+        },
+        "Скин: Спецназовец (id: 880)": {
+            "atlas": 95,
+            "index": 1
+        },
+        "Скин: Суидни Суини (ID: 1032)": {
+            "atlas": 95,
+            "index": 2
+        },
+        "Складная магическая лавка": {
+            "atlas": 95,
+            "index": 3
+        },
+        "Складная мусорная лавка": {
+            "atlas": 95,
+            "index": 4
+        },
         "Сковорода на спину": {
-            "atlas": 63,
-            "index": 10
+            "atlas": 95,
+            "index": 5
         },
         "Скрытый клинок": {
-            "atlas": 63,
-            "index": 11
+            "atlas": 95,
+            "index": 6
         },
         "Скуф": {
-            "atlas": 63,
-            "index": 12
+            "atlas": 95,
+            "index": 7
         },
         "Случайный Культовый Бронежилет": {
-            "atlas": 63,
-            "index": 13
+            "atlas": 95,
+            "index": 8
         },
         "Смазка для разгона Arizona Video Card": {
-            "atlas": 63,
-            "index": 14
+            "atlas": 95,
+            "index": 9
         },
         "Смазка для разгона видеокарты": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 0
         },
         "Современная карта кладов (Уровень: 1)": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 1
         },
         "Современная карта кладов (Уровень: 2)": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 2
         },
         "Современная карта кладов (Уровень: 3)": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 3
         },
         "Сода": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 4
         },
         "Солнечные панели": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 5
         },
         "Спиральный нимб": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 6
         },
         "Старая карта кладов": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 7
         },
         "Стеклянный забор": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 8
         },
         "Странное растение": {
-            "atlas": 64,
+            "atlas": 96,
             "index": 9
         },
         "Стулья со столом 1": {
-            "atlas": 64,
-            "index": 10
-        },
-        "Стулья со столом 2": {
-            "atlas": 64,
-            "index": 11
-        },
-        "Стулья со столом 3": {
-            "atlas": 64,
-            "index": 12
-        },
-        "Стулья со столом 4": {
-            "atlas": 64,
-            "index": 13
-        },
-        "Сумка": {
-            "atlas": 64,
-            "index": 14
-        },
-        "Супер охлаждающая жидкость для видеокарты": {
-            "atlas": 65,
+            "atlas": 97,
             "index": 0
         },
-        "Супер-грабли": {
-            "atlas": 65,
+        "Стулья со столом 2": {
+            "atlas": 97,
             "index": 1
         },
-        "Супер-лопата": {
-            "atlas": 65,
+        "Стулья со столом 3": {
+            "atlas": 97,
             "index": 2
         },
-        "Супермен": {
-            "atlas": 65,
+        "Стулья со столом 4": {
+            "atlas": 97,
             "index": 3
         },
-        "Сфера над головой": {
-            "atlas": 65,
+        "Сумка": {
+            "atlas": 97,
             "index": 4
         },
-        "Сферы Инвокера": {
-            "atlas": 65,
+        "Супер охлаждающая жидкость для видеокарты": {
+            "atlas": 97,
             "index": 5
         },
-        "Сцепление (sport+)": {
-            "atlas": 65,
+        "Супер-грабли": {
+            "atlas": 97,
             "index": 6
         },
-        "Сырое мясо оленины": {
-            "atlas": 65,
+        "Супер-лопата": {
+            "atlas": 97,
             "index": 7
         },
-        "Табличка «Фрапс пишется»": {
-            "atlas": 65,
+        "Супермен": {
+            "atlas": 97,
             "index": 8
         },
-        "Тайник Vice City": {
-            "atlas": 65,
+        "Сфера над головой": {
+            "atlas": 97,
             "index": 9
         },
+        "Сферы Инвокера": {
+            "atlas": 98,
+            "index": 0
+        },
+        "Сцепление (sport+)": {
+            "atlas": 98,
+            "index": 1
+        },
+        "Сырое мясо оленины": {
+            "atlas": 98,
+            "index": 2
+        },
+        "Табличка «Фрапс пишется»": {
+            "atlas": 98,
+            "index": 3
+        },
+        "Тайник Vice City": {
+            "atlas": 98,
+            "index": 4
+        },
         "Тайник Ведьмы": {
-            "atlas": 65,
-            "index": 10
+            "atlas": 98,
+            "index": 5
         },
         "Тайник Лича": {
-            "atlas": 65,
-            "index": 11
+            "atlas": 98,
+            "index": 6
         },
         "Тайник Медведя": {
-            "atlas": 65,
-            "index": 12
+            "atlas": 98,
+            "index": 7
         },
         "Тайник Сердючки": {
-            "atlas": 65,
-            "index": 13
+            "atlas": 98,
+            "index": 8
         },
         "Тайник Собирателя": {
-            "atlas": 65,
-            "index": 14
+            "atlas": 98,
+            "index": 9
         },
         "Тайник Фрирен": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 0
         },
         "Тайник лос сантоса": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 1
         },
         "Тактический Бронежилет": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 2
         },
         "Тактический Шлем": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 3
         },
         "Талон x4 PayDay": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 4
         },
         "Темная материя": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 5
         },
         "Темно-зеленое граффити": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 6
         },
         "Тент": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 7
         },
         "Термо-рюкзак": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 8
         },
         "Техническая часть автомобиля": {
-            "atlas": 66,
+            "atlas": 99,
             "index": 9
         },
         "Том Харди": {
-            "atlas": 66,
-            "index": 10
-        },
-        "Томас Шелби": {
-            "atlas": 66,
-            "index": 11
-        },
-        "Тормоза (sport+)": {
-            "atlas": 66,
-            "index": 12
-        },
-        "Тоф Бейфонг": {
-            "atlas": 66,
-            "index": 13
-        },
-        "Тракса Аркана": {
-            "atlas": 66,
-            "index": 14
-        },
-        "Тревожный чемоданчик": {
-            "atlas": 67,
+            "atlas": 100,
             "index": 0
         },
-        "Трость": {
-            "atlas": 67,
+        "Томас Шелби": {
+            "atlas": 100,
             "index": 1
         },
-        "Труп полицейского": {
-            "atlas": 67,
+        "Тормоза (sport+)": {
+            "atlas": 100,
             "index": 2
         },
-        "Турбокомпрессор (sport+)": {
-            "atlas": 67,
+        "Тоф Бейфонг": {
+            "atlas": 100,
             "index": 3
         },
-        "Туфли Полли": {
-            "atlas": 67,
+        "Тракса Аркана": {
+            "atlas": 100,
             "index": 4
         },
-        "Туфли Томаса": {
-            "atlas": 67,
+        "Тревожный чемоданчик": {
+            "atlas": 100,
             "index": 5
         },
-        "Тыква": {
-            "atlas": 67,
+        "Трость": {
+            "atlas": 100,
             "index": 6
         },
-        "Тюнинг-пак для Фура Зверя Tier 1": {
-            "atlas": 67,
+        "Труп полицейского": {
+            "atlas": 100,
             "index": 7
         },
-        "Тюнинг-пак для Фура Зверя Tier 2": {
-            "atlas": 67,
+        "Турбокомпрессор (sport+)": {
+            "atlas": 100,
             "index": 8
         },
-        "Тюнинг-пак для Фура Зверя Tier 3": {
-            "atlas": 67,
+        "Туфли Полли": {
+            "atlas": 100,
             "index": 9
         },
+        "Туфли Томаса": {
+            "atlas": 101,
+            "index": 0
+        },
+        "Тыква": {
+            "atlas": 101,
+            "index": 1
+        },
+        "Тюнинг-пак для Фура Зверя Tier 1": {
+            "atlas": 101,
+            "index": 2
+        },
+        "Тюнинг-пак для Фура Зверя Tier 2": {
+            "atlas": 101,
+            "index": 3
+        },
+        "Тюнинг-пак для Фура Зверя Tier 3": {
+            "atlas": 101,
+            "index": 4
+        },
         "УАЗ Буханка": {
-            "atlas": 67,
-            "index": 10
+            "atlas": 101,
+            "index": 5
         },
         "Увеличенный бак (160 литров)": {
-            "atlas": 67,
-            "index": 11
+            "atlas": 101,
+            "index": 6
         },
         "Увеличенный бак (60 литров)": {
-            "atlas": 67,
-            "index": 12
+            "atlas": 101,
+            "index": 7
         },
         "Увеличенный бак (90 литров)": {
-            "atlas": 67,
-            "index": 13
+            "atlas": 101,
+            "index": 8
         },
         "Увеличитель пропускной способности": {
-            "atlas": 67,
-            "index": 14
+            "atlas": 101,
+            "index": 9
         },
         "Уголь": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 0
         },
         "Удилище +10": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 1
         },
         "Удилище": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 2
         },
         "Удобрение для укропа": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 3
         },
         "Уилл Смит": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 4
         },
         "Уиллем Дефо": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 5
         },
         "Укол адреналина": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 6
         },
         "Укроп": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 7
         },
         "Укроп: таблетка адреналина": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 8
         },
         "Улучшение Большие Карманы": {
-            "atlas": 68,
+            "atlas": 102,
             "index": 9
         },
         "Улучшение для автомобиля": {
-            "atlas": 68,
-            "index": 10
-        },
-        "Улучшенный Сироп Характеристик Актера 3 LVL": {
-            "atlas": 68,
-            "index": 11
-        },
-        "Улучшенный Сироп Характеристик Актера 4 LVL": {
-            "atlas": 68,
-            "index": 12
-        },
-        "Улучшенный Сироп Характеристик Актера": {
-            "atlas": 68,
-            "index": 13
-        },
-        "Улучшенный замок": {
-            "atlas": 68,
-            "index": 14
-        },
-        "Улучшенный металлоискатель": {
-            "atlas": 69,
+            "atlas": 103,
             "index": 0
         },
-        "Улучшенный ремень безопасности": {
-            "atlas": 69,
+        "Улучшенный Сироп Характеристик Актера 3 LVL": {
+            "atlas": 103,
             "index": 1
         },
-        "Усилитель Дирижабля Tier 1": {
-            "atlas": 69,
+        "Улучшенный Сироп Характеристик Актера 4 LVL": {
+            "atlas": 103,
             "index": 2
         },
-        "Усилитель Дирижабля Tier 2": {
-            "atlas": 69,
+        "Улучшенный Сироп Характеристик Актера": {
+            "atlas": 103,
             "index": 3
         },
-        "Усилитель Черной жемчужины Tier 3": {
-            "atlas": 69,
+        "Улучшенный замок": {
+            "atlas": 103,
             "index": 4
         },
-        "Уэенсдей Аддамс [1991]": {
-            "atlas": 69,
+        "Улучшенный металлоискатель": {
+            "atlas": 103,
             "index": 5
         },
-        "Факел": {
-            "atlas": 69,
+        "Улучшенный ремень безопасности": {
+            "atlas": 103,
             "index": 6
         },
-        "Фары 1980": {
-            "atlas": 69,
+        "Усилитель Дирижабля Tier 1": {
+            "atlas": 103,
             "index": 7
         },
-        "Фил": {
-            "atlas": 69,
+        "Усилитель Дирижабля Tier 2": {
+            "atlas": 103,
             "index": 8
         },
-        "Фиолетовое граффити": {
-            "atlas": 69,
+        "Усилитель Черной жемчужины Tier 3": {
+            "atlas": 103,
             "index": 9
         },
+        "Уэенсдей Аддамс [1991]": {
+            "atlas": 104,
+            "index": 0
+        },
+        "Факел": {
+            "atlas": 104,
+            "index": 1
+        },
+        "Фары 1980": {
+            "atlas": 104,
+            "index": 2
+        },
+        "Фил": {
+            "atlas": 104,
+            "index": 3
+        },
+        "Фиолетовое граффити": {
+            "atlas": 104,
+            "index": 4
+        },
         "Фиолетовый Светильник": {
-            "atlas": 69,
-            "index": 10
+            "atlas": 104,
+            "index": 5
         },
         "Флаг": {
-            "atlas": 69,
-            "index": 11
+            "atlas": 104,
+            "index": 6
         },
         "Флешка Майнера": {
-            "atlas": 69,
-            "index": 12
+            "atlas": 104,
+            "index": 7
         },
         "Фотоаппарат на грудь": {
-            "atlas": 69,
-            "index": 13
+            "atlas": 104,
+            "index": 8
         },
         "Фотоаппарат": {
-            "atlas": 69,
-            "index": 14
+            "atlas": 104,
+            "index": 9
         },
         "Фрирен": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 0
         },
         "Фура Зверя Tier 3": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 1
         },
         "Халк Хоган": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 2
         },
         "Хаммер Войда": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 3
         },
         "Харли Квин": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 4
         },
         "Хикки Истока": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 5
         },
         "Хлопок": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 6
         },
         "Хоумлендер": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 7
         },
         "Хук Пуджа": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 8
         },
         "Цветок в горшке 1": {
-            "atlas": 70,
+            "atlas": 105,
             "index": 9
         },
         "Цветок в горшке 2": {
-            "atlas": 70,
-            "index": 10
-        },
-        "Цветок в горшке 3": {
-            "atlas": 70,
-            "index": 11
-        },
-        "Цветок в горшке 4": {
-            "atlas": 70,
-            "index": 12
-        },
-        "Цветок в горшке 5": {
-            "atlas": 70,
-            "index": 13
-        },
-        "Цветок в горшке 6": {
-            "atlas": 70,
-            "index": 14
-        },
-        "Цветок в горшке 7": {
-            "atlas": 71,
+            "atlas": 106,
             "index": 0
         },
-        "Цветок в горшке 8": {
-            "atlas": 71,
+        "Цветок в горшке 3": {
+            "atlas": 106,
             "index": 1
         },
-        "Цветок в горшке 9": {
-            "atlas": 71,
+        "Цветок в горшке 4": {
+            "atlas": 106,
             "index": 2
         },
-        "Цветок в сером горшке": {
-            "atlas": 71,
+        "Цветок в горшке 5": {
+            "atlas": 106,
             "index": 3
         },
-        "Цветы": {
-            "atlas": 71,
+        "Цветок в горшке 6": {
+            "atlas": 106,
             "index": 4
         },
-        "Цепь «Bitcoin»": {
-            "atlas": 71,
+        "Цветок в горшке 7": {
+            "atlas": 106,
             "index": 5
         },
-        "Цепь «Махинатор»": {
-            "atlas": 71,
+        "Цветок в горшке 8": {
+            "atlas": 106,
             "index": 6
         },
-        "Цепь Иллюмината": {
-            "atlas": 71,
+        "Цветок в горшке 9": {
+            "atlas": 106,
             "index": 7
         },
-        "Цепь Трешер": {
-            "atlas": 71,
+        "Цветок в сером горшке": {
+            "atlas": 106,
             "index": 8
         },
-        "Чан с зельем": {
-            "atlas": 71,
+        "Цветы": {
+            "atlas": 106,
             "index": 9
         },
+        "Цепь «Bitcoin»": {
+            "atlas": 107,
+            "index": 0
+        },
+        "Цепь «Махинатор»": {
+            "atlas": 107,
+            "index": 1
+        },
+        "Цепь Иллюмината": {
+            "atlas": 107,
+            "index": 2
+        },
+        "Цепь Трешер": {
+            "atlas": 107,
+            "index": 3
+        },
+        "Чан с зельем": {
+            "atlas": 107,
+            "index": 4
+        },
         "Чарли Ханнэм": {
-            "atlas": 71,
-            "index": 10
+            "atlas": 107,
+            "index": 5
         },
         "Часть от амулета": {
-            "atlas": 71,
-            "index": 11
+            "atlas": 107,
+            "index": 6
         },
         "Часы Apple Watch": {
-            "atlas": 71,
-            "index": 12
+            "atlas": 107,
+            "index": 7
         },
         "Часы Casio G-SHOCK": {
-            "atlas": 71,
-            "index": 13
+            "atlas": 107,
+            "index": 8
         },
         "Часы Gucci": {
-            "atlas": 71,
-            "index": 14
+            "atlas": 107,
+            "index": 9
         },
         "Часы Relogios Casio": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 0
         },
         "Часы Rolex Submariner": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 1
         },
         "Человек Муравей": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 2
         },
         "Чемодан Bomj Gang": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 3
         },
         "Чемодан Лабубу": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 4
         },
         "Чемодан железного человека": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 5
         },
         "Чемодан зомби": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 6
         },
         "Чемодан": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 7
         },
         "Ченниг Татум": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 8
         },
         "Череп": {
-            "atlas": 72,
+            "atlas": 108,
             "index": 9
         },
         "Черная гитара": {
-            "atlas": 72,
-            "index": 10
-        },
-        "Черная жемчужина Tier 3": {
-            "atlas": 72,
-            "index": 11
-        },
-        "Черная жемчужина": {
-            "atlas": 72,
-            "index": 12
-        },
-        "Черная колонки": {
-            "atlas": 72,
-            "index": 13
-        },
-        "Черный праздничный торт": {
-            "atlas": 72,
-            "index": 14
-        },
-        "Черный стул": {
-            "atlas": 73,
+            "atlas": 109,
             "index": 0
         },
-        "Чип-тюнинг (STAGE 3)": {
-            "atlas": 73,
+        "Черная жемчужина Tier 3": {
+            "atlas": 109,
             "index": 1
         },
-        "Шапка из печенья": {
-            "atlas": 73,
+        "Черная жемчужина": {
+            "atlas": 109,
             "index": 2
         },
-        "Шапка": {
-            "atlas": 73,
+        "Черная колонки": {
+            "atlas": 109,
             "index": 3
         },
-        "Шахтерский сплав": {
-            "atlas": 73,
+        "Черный праздничный торт": {
+            "atlas": 109,
             "index": 4
         },
-        "Шелби личной Персоной": {
-            "atlas": 73,
+        "Черный стул": {
+            "atlas": 109,
             "index": 5
         },
-        "Шипастый щит ( на спутника )": {
-            "atlas": 73,
+        "Чип-тюнинг (STAGE 3)": {
+            "atlas": 109,
             "index": 6
         },
-        "Шипованный обруч ( на спутника )": {
-            "atlas": 73,
+        "Шапка из печенья": {
+            "atlas": 109,
             "index": 7
         },
-        "Шипованный обруч": {
-            "atlas": 73,
+        "Шапка": {
+            "atlas": 109,
             "index": 8
         },
-        "Шкатулка Кладоискателя": {
-            "atlas": 73,
+        "Шахтерский сплав": {
+            "atlas": 109,
             "index": 9
         },
+        "Шелби личной Персоной": {
+            "atlas": 110,
+            "index": 0
+        },
+        "Шипастый щит ( на спутника )": {
+            "atlas": 110,
+            "index": 1
+        },
+        "Шипованный обруч ( на спутника )": {
+            "atlas": 110,
+            "index": 2
+        },
+        "Шипованный обруч": {
+            "atlas": 110,
+            "index": 3
+        },
+        "Шкатулка Кладоискателя": {
+            "atlas": 110,
+            "index": 4
+        },
         "Шкура оленя": {
-            "atlas": 73,
-            "index": 10
+            "atlas": 110,
+            "index": 5
         },
         "Шлем Cyber Cat": {
-            "atlas": 73,
-            "index": 11
+            "atlas": 110,
+            "index": 6
         },
         "Шлем «Shinobi»": {
-            "atlas": 73,
-            "index": 12
+            "atlas": 110,
+            "index": 7
         },
         "Шлем Железного человека": {
-            "atlas": 73,
-            "index": 13
+            "atlas": 110,
+            "index": 8
         },
         "Шлем Мистерио": {
-            "atlas": 73,
-            "index": 14
+            "atlas": 110,
+            "index": 9
         },
         "Шлем": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 0
         },
         "Шляпа мага": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 1
         },
         "Шон Майклз": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 2
         },
         "Шуфутинский": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 3
         },
         "Щит POLICE": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 4
         },
         "Щит Капитана Америки": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 5
         },
         "Элджей": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 6
         },
         "Эликсир Каменных Людей": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 7
         },
         "Эликсир защиты от Каменных Людей": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 8
         },
         "Элитная переносная лавка": {
-            "atlas": 74,
+            "atlas": 111,
             "index": 9
         },
         "Эмблема ГТА III": {
-            "atlas": 74,
-            "index": 10
-        },
-        "Эндер куб": {
-            "atlas": 74,
-            "index": 11
-        },
-        "Энергетик": {
-            "atlas": 74,
-            "index": 12
-        },
-        "Энергетическая накладка Маска череп": {
-            "atlas": 74,
-            "index": 13
-        },
-        "Энергетическая накладка": {
-            "atlas": 74,
-            "index": 14
-        },
-        "Энергетические Часы": {
-            "atlas": 75,
+            "atlas": 112,
             "index": 0
         },
-        "Энергетический Кура Шар": {
-            "atlas": 75,
+        "Эндер куб": {
+            "atlas": 112,
             "index": 1
         },
-        "Энергетический Махинатор": {
-            "atlas": 75,
+        "Энергетик": {
+            "atlas": 112,
             "index": 2
         },
-        "Энергетический Щит": {
-            "atlas": 75,
+        "Энергетическая накладка Маска череп": {
+            "atlas": 112,
             "index": 3
         },
-        "Энергетический воздушный шар": {
-            "atlas": 75,
+        "Энергетическая накладка": {
+            "atlas": 112,
             "index": 4
         },
-        "Энергетический двигатель": {
-            "atlas": 75,
+        "Энергетические Часы": {
+            "atlas": 112,
             "index": 5
         },
-        "Энергетический курьер": {
-            "atlas": 75,
+        "Энергетический Кура Шар": {
+            "atlas": 112,
             "index": 6
         },
-        "Энергетический чемодан": {
-            "atlas": 75,
+        "Энергетический Махинатор": {
+            "atlas": 112,
             "index": 7
         },
-        "Энерго маска Госта": {
-            "atlas": 75,
+        "Энергетический Щит": {
+            "atlas": 112,
             "index": 8
         },
-        "Эффект Рыбки в пруду": {
-            "atlas": 75,
+        "Энергетический воздушный шар": {
+            "atlas": 112,
             "index": 9
         },
+        "Энергетический двигатель": {
+            "atlas": 113,
+            "index": 0
+        },
+        "Энергетический курьер": {
+            "atlas": 113,
+            "index": 1
+        },
+        "Энергетический чемодан": {
+            "atlas": 113,
+            "index": 2
+        },
+        "Энерго маска Госта": {
+            "atlas": 113,
+            "index": 3
+        },
+        "Эффект Рыбки в пруду": {
+            "atlas": 113,
+            "index": 4
+        },
         "Эхолот для рыбалки": {
-            "atlas": 75,
-            "index": 10
+            "atlas": 113,
+            "index": 5
         },
         "Эхолот": {
-            "atlas": 75,
-            "index": 11
+            "atlas": 113,
+            "index": 6
         },
         "Ярко-красный подарок": {
-            "atlas": 75,
-            "index": 12
+            "atlas": 113,
+            "index": 7
         },
         "Ящик Рыболова": {
-            "atlas": 75,
-            "index": 13
+            "atlas": 113,
+            "index": 8
         },
         "Ящик Шелби": {
-            "atlas": 75,
-            "index": 14
+            "atlas": 113,
+            "index": 9
         },
         "Ящик аммо": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 0
         },
         "Ящик с патронами": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 1
         },
         "Ящик с секретной машиной": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 2
         },
         "бетонная мусорка": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 3
         },
         "дельтаплан на спину": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 4
         },
         "осколок Bentley Continental GT3": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 5
         },
         "осколок Летающий BMW": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 6
         },
         "осколок Летающий Mercedes": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 7
         },
         "осколок Летающий Range Rover": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 8
         },
         "осколок НФТ контейнера Nft": {
-            "atlas": 76,
+            "atlas": 114,
             "index": 9
         },
         "осколок Руки бесконечности": {
-            "atlas": 76,
-            "index": 10
-        },
-        "осколок портальной пушки": {
-            "atlas": 76,
-            "index": 11
-        },
-        "осколок русского боевого топора": {
-            "atlas": 76,
-            "index": 12
-        },
-        "осколок шлема железного человека": {
-            "atlas": 76,
-            "index": 13
-        },
-        "осколок щита Капитана Америки": {
-            "atlas": 76,
-            "index": 14
-        },
-        "осколок энергетического щита": {
-            "atlas": 77,
+            "atlas": 115,
             "index": 0
         },
-        "супер-кирка": {
-            "atlas": 77,
+        "осколок портальной пушки": {
+            "atlas": 115,
             "index": 1
         },
-        "танго": {
-            "atlas": 77,
+        "осколок русского боевого топора": {
+            "atlas": 115,
             "index": 2
+        },
+        "осколок шлема железного человека": {
+            "atlas": 115,
+            "index": 3
+        },
+        "осколок щита Капитана Америки": {
+            "atlas": 115,
+            "index": 4
+        },
+        "осколок энергетического щита": {
+            "atlas": 115,
+            "index": 5
+        },
+        "супер-кирка": {
+            "atlas": 115,
+            "index": 6
+        },
+        "танго": {
+            "atlas": 115,
+            "index": 7
         }
     }
 }
