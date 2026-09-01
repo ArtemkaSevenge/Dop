@@ -2,7 +2,7 @@ local ffi = require 'ffi'
 local bit = require 'bit'
 
 local M = {
-    _VERSION = '1.0.0',
+    _VERSION = '2.0.0',
     backend = 'WinHTTP/Schannel'
 }
 
@@ -369,16 +369,89 @@ local function query_raw_headers(request)
     return from_wide(ffi.cast('wchar_t*', buffer), math.floor((tonumber(size[0]) or 0) / 2)):gsub('%z+$', '')
 end
 
-local function read_body(request, max_body_size)
+local function close_handle(handle)
+    if not is_null(handle) then pcall(winhttp.WinHttpCloseHandle, handle) end
+end
+
+local STATE = {
+    session = nil,
+    user_agent = nil,
+    connections = {}
+}
+
+local function close_connections()
+    for key, handle in pairs(STATE.connections) do
+        close_handle(handle)
+        STATE.connections[key] = nil
+    end
+end
+
+local function close_session()
+    close_connections()
+    close_handle(STATE.session)
+    STATE.session = nil
+    STATE.user_agent = nil
+end
+
+local function ensure_session(user_agent)
+    user_agent = tostring(user_agent or DEFAULT_USER_AGENT)
+    if not is_null(STATE.session) and STATE.user_agent == user_agent then
+        return STATE.session
+    end
+    close_session()
+    local user_agent_w = to_wide(user_agent)
+    if not user_agent_w then
+        return nil, make_error('encoding', 0, 'HTTP_ENCODING', 'Unable to encode User-Agent')
+    end
+    local session = winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, nil, nil, 0)
+    if is_null(session) then
+        session = winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, nil, nil, 0)
+    end
+    if is_null(session) then
+        return nil, last_error('open_session')
+    end
+    local http_protocols = ffi.new('unsigned long[1]', WINHTTP_PROTOCOL_FLAG_HTTP2)
+    winhttp.WinHttpSetOption(session, WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL, http_protocols, ffi.sizeof(http_protocols))
+    STATE.session = session
+    STATE.user_agent = user_agent
+    return session
+end
+
+local function connection_key(parsed)
+    return parsed.scheme .. '://' .. parsed.host:lower() .. ':' .. tostring(parsed.port)
+end
+
+local function drop_connection(parsed)
+    local key = connection_key(parsed)
+    local handle = STATE.connections[key]
+    if not is_null(handle) then close_handle(handle) end
+    STATE.connections[key] = nil
+end
+
+local function ensure_connection(parsed, session)
+    local key = connection_key(parsed)
+    local cached = STATE.connections[key]
+    if not is_null(cached) then return cached end
+    local host_w = to_wide(parsed.host)
+    if not host_w then
+        return nil, make_error('encoding', 0, 'HTTP_ENCODING', 'Unable to encode host')
+    end
+    local connect = winhttp.WinHttpConnect(session, host_w, parsed.port, 0)
+    if is_null(connect) then
+        return nil, last_error('connect', nil, { host = parsed.host, port = parsed.port })
+    end
+    STATE.connections[key] = connect
+    return connect
+end
+
+local function read_response(request, max_body_size, sink)
     max_body_size = tonumber(max_body_size) or DEFAULT_MAX_BODY_SIZE
     if max_body_size <= 0 then max_body_size = DEFAULT_MAX_BODY_SIZE end
-
-    local chunks = {}
+    local chunks = sink and nil or {}
     local total = 0
     local buffer_size = 64 * 1024
     local buffer = ffi.new('unsigned char[?]', buffer_size)
     local read = ffi.new('unsigned long[1]', 0)
-
     while true do
         read[0] = 0
         local ok = winhttp.WinHttpReadData(request, buffer, buffer_size, read)
@@ -394,145 +467,80 @@ local function read_body(request, max_body_size)
                 received = total
             })
         end
-        chunks[#chunks + 1] = ffi.string(buffer, count)
+        local chunk = ffi.string(buffer, count)
+        if sink then
+            local ok_sink, sink_err = sink(chunk)
+            if not ok_sink then return nil, sink_err end
+        else
+            chunks[#chunks + 1] = chunk
+        end
     end
-
-    return table.concat(chunks)
+    if sink then return total end
+    return table.concat(chunks), total
 end
 
-local function close_handle(handle)
-    if not is_null(handle) then pcall(winhttp.WinHttpCloseHandle, handle) end
-end
-
-function M.request(method, url, args)
+local function perform_request(method, url, args, sink)
     args = args or {}
     method = tostring(method or 'GET'):upper()
-
     local parsed, parse_err = parse_url(url)
     if not parsed then return nil, parse_err end
-
     local timeout_seconds = tonumber(args.timeout) or DEFAULT_TIMEOUT_SECONDS
     if timeout_seconds <= 0 then timeout_seconds = DEFAULT_TIMEOUT_SECONDS end
     local timeout_ms = math.floor(timeout_seconds * 1000)
-
-    local session
-    local connect
-    local request
-
-    local function cleanup()
-        close_handle(request)
-        close_handle(connect)
-        close_handle(session)
-        request, connect, session = nil, nil, nil
-    end
-
-    local user_agent = tostring(args.user_agent or DEFAULT_USER_AGENT)
-    local user_agent_w = to_wide(user_agent)
-    if not user_agent_w then
-        return nil, make_error('encoding', 0, 'HTTP_ENCODING', 'Unable to encode User-Agent')
-    end
-
-    session = winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, nil, nil, 0)
-    if is_null(session) then
-        session = winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, nil, nil, 0)
-    end
-    if is_null(session) then
-        local err = last_error('open_session')
-        cleanup()
-        return nil, err
-    end
-
+    local session, session_err = ensure_session(args.user_agent)
+    if not session then return nil, session_err end
     winhttp.WinHttpSetTimeouts(session, timeout_ms, timeout_ms, timeout_ms, timeout_ms)
-
-    local http_protocols = ffi.new('unsigned long[1]', WINHTTP_PROTOCOL_FLAG_HTTP2)
-    winhttp.WinHttpSetOption(session, WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL, http_protocols, ffi.sizeof(http_protocols))
-
-    local host_w = to_wide(parsed.host)
-    if not host_w then
-        cleanup()
-        return nil, make_error('encoding', 0, 'HTTP_ENCODING', 'Unable to encode host')
-    end
-
-    connect = winhttp.WinHttpConnect(session, host_w, parsed.port, 0)
-    if is_null(connect) then
-        local err = last_error('connect', nil, { host = parsed.host, port = parsed.port })
-        cleanup()
-        return nil, err
-    end
-
+    local connect, connect_err = ensure_connection(parsed, session)
+    if not connect then return nil, connect_err end
     local method_w = to_wide(method)
     local target_w = to_wide(parsed.target)
     if not method_w or not target_w then
-        cleanup()
         return nil, make_error('encoding', 0, 'HTTP_ENCODING', 'Unable to encode request method or target')
     end
-
     local flags = parsed.secure and WINHTTP_FLAG_SECURE or 0
-    request = winhttp.WinHttpOpenRequest(connect, method_w, target_w, nil, nil, nil, flags)
+    local request = winhttp.WinHttpOpenRequest(connect, method_w, target_w, nil, nil, nil, flags)
     if is_null(request) then
-        local err = last_error('open_request')
-        cleanup()
+        drop_connection(parsed)
+        return nil, last_error('open_request')
+    end
+    local function fail(err, reset_connection)
+        close_handle(request)
+        if reset_connection then drop_connection(parsed) end
         return nil, err
     end
-
     winhttp.WinHttpSetTimeouts(request, timeout_ms, timeout_ms, timeout_ms, timeout_ms)
-
     local fast_fallback = ffi.new('int[1]', 1)
     winhttp.WinHttpSetOption(request, WINHTTP_OPTION_IPV6_FAST_FALLBACK, fast_fallback, ffi.sizeof(fast_fallback))
-
     local decompression = ffi.new('unsigned long[1]', bit.bor(WINHTTP_DECOMPRESSION_FLAG_GZIP, WINHTTP_DECOMPRESSION_FLAG_DEFLATE))
     winhttp.WinHttpSetOption(request, WINHTTP_OPTION_DECOMPRESSION, decompression, ffi.sizeof(decompression))
-
-    local header_block = build_headers(args.headers, user_agent)
+    local header_block = build_headers(args.headers, STATE.user_agent or DEFAULT_USER_AGENT)
     local header_w, header_chars
     if header_block then header_w, header_chars = to_wide(header_block) end
     if header_block and not header_w then
-        cleanup()
-        return nil, make_error('encoding', 0, 'HTTP_ENCODING', 'Unable to encode request headers')
+        return fail(make_error('encoding', 0, 'HTTP_ENCODING', 'Unable to encode request headers'), false)
     end
-
     local body = args.data
     if body == nil then body = '' end
     if type(body) ~= 'string' then body = tostring(body) end
     local body_ptr = #body > 0 and ffi.cast('const char*', body) or nil
-
-    local sent = winhttp.WinHttpSendRequest(
-        request,
-        header_w,
-        header_w and (header_chars or 0) or 0,
-        body_ptr,
-        #body,
-        #body,
-        0
-    )
+    local sent = winhttp.WinHttpSendRequest(request, header_w, header_w and (header_chars or 0) or 0, body_ptr, #body, #body, 0)
     if sent == 0 then
-        local err = last_error('send', nil, { host = parsed.host, port = parsed.port })
-        cleanup()
-        return nil, err
+        return fail(last_error('send', nil, { host = parsed.host, port = parsed.port }), true)
     end
-
     if winhttp.WinHttpReceiveResponse(request, nil) == 0 then
-        local err = last_error('receive', nil, { host = parsed.host, port = parsed.port })
-        cleanup()
-        return nil, err
+        return fail(last_error('receive', nil, { host = parsed.host, port = parsed.port }), true)
     end
-
     local status_code, status_err = query_status_code(request)
-    if not status_code then
-        cleanup()
-        return nil, status_err
-    end
-
+    if not status_code then return fail(status_err, true) end
     local raw_headers = query_raw_headers(request)
     local response_headers = parse_raw_headers(raw_headers)
-    local body_text, read_err = read_body(request, args.max_body_size)
-    if body_text == nil then
-        cleanup()
-        return nil, read_err
+    local response_body, bytes_or_err = read_response(request, args.max_body_size, sink)
+    if response_body == nil then
+        return fail(bytes_or_err, true)
     end
-
-    cleanup()
-
+    close_handle(request)
+    local body_text = sink and '' or response_body
+    local bytes = sink and response_body or bytes_or_err
     return {
         status_code = status_code,
         status = 'HTTP ' .. tostring(status_code),
@@ -540,72 +548,91 @@ function M.request(method, url, args)
         text = body_text,
         content = body_text,
         url = tostring(url),
-        backend = M.backend
+        backend = M.backend,
+        bytes = tonumber(bytes) or #body_text
     }
 end
 
-local function write_file_atomic(path, data)
-    path = tostring(path or '')
-    if path == '' then
-        return nil, make_error('file', 0, 'HTTP_FILE', 'Destination path is empty')
-    end
+function M.request(method, url, args)
+    return perform_request(method, url, args or {}, nil)
+end
 
-    local suffix = string.format('.pm_download_%d_%06d.tmp', os.time(), math.random(0, 999999))
-    local temp_path = path .. suffix
-    local file, open_err = io.open(temp_path, 'wb')
-    if not file then
-        return nil, make_error('file', 0, 'HTTP_FILE', tostring(open_err or 'Unable to open temporary file'))
-    end
-
-    local ok_write, write_err = pcall(function()
-        file:write(data)
-        file:flush()
-        file:close()
-    end)
-    if not ok_write then
-        pcall(function() file:close() end)
-        os.remove(temp_path)
-        return nil, make_error('file', 0, 'HTTP_FILE', tostring(write_err or 'Unable to write file'))
-    end
-
+local function move_atomic(temp_path, path)
     local temp_w = to_wide_path(temp_path)
     local path_w = to_wide_path(path)
     if not temp_w or not path_w then
         os.remove(temp_path)
         return nil, make_error('file', 0, 'HTTP_ENCODING', 'Unable to encode destination path')
     end
-
     local moved = kernel32.MoveFileExW(temp_w, path_w, bit.bor(MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH))
     if moved == 0 then
         local err = last_error('file_move', 'HTTP_FILE')
         kernel32.DeleteFileW(temp_w)
         return nil, err
     end
-
     return true
 end
 
 function M.download(url, path, args)
     args = args or {}
-    local response, err = M.request(args.method or 'GET', url, args)
-    if not response then return nil, err end
+    path = tostring(path or '')
+    if path == '' then
+        return nil, make_error('file', 0, 'HTTP_FILE', 'Destination path is empty')
+    end
+    local suffix = string.format('.pm_download_%d_%06d.tmp', os.time(), math.random(0, 999999))
+    local temp_path = path .. suffix
+    local file, open_err = io.open(temp_path, 'wb')
+    if not file then
+        return nil, make_error('file', 0, 'HTTP_FILE', tostring(open_err or 'Unable to open temporary file'))
+    end
+    local keep_chunks = args.keep_body == true and {} or nil
+    local response, request_err = perform_request(args.method or 'GET', url, args, function(chunk)
+        local ok_write, write_err = file:write(chunk)
+        if not ok_write then
+            return nil, make_error('file', 0, 'HTTP_FILE', tostring(write_err or 'Unable to write file'))
+        end
+        if keep_chunks then keep_chunks[#keep_chunks + 1] = chunk end
+        return true
+    end)
+    local ok_close, close_err = pcall(function() file:flush(); file:close() end)
+    if not response then
+        if not ok_close then pcall(function() file:close() end) end
+        os.remove(temp_path)
+        return nil, request_err
+    end
+    if not ok_close then
+        pcall(function() file:close() end)
+        os.remove(temp_path)
+        return nil, make_error('file', 0, 'HTTP_FILE', tostring(close_err or 'Unable to close file'))
+    end
     if response.status_code < 200 or response.status_code >= 300 then
+        os.remove(temp_path)
         return nil, make_error('http_status', 0, 'HTTP_STATUS', 'HTTP ' .. tostring(response.status_code), {
             status = response.status_code,
             url = tostring(url)
         })
     end
-
-    local ok, file_err = write_file_atomic(path, response.text or '')
-    if not ok then return nil, file_err end
-
-    response.saved_to = tostring(path)
-    response.bytes = #(response.text or '')
-    if args.keep_body ~= true then
+    local ok_move, move_err = move_atomic(temp_path, path)
+    if not ok_move then return nil, move_err end
+    response.saved_to = path
+    if keep_chunks then
+        response.text = table.concat(keep_chunks)
+        response.content = response.text
+    else
         response.text = ''
         response.content = ''
     end
     return response
+end
+
+function M.close()
+    close_session()
+    return true
+end
+
+function M.reset()
+    close_session()
+    return true
 end
 
 function M.info()
@@ -613,7 +640,7 @@ function M.info()
         version = M._VERSION,
         backend = M.backend,
         tls = 'Windows Schannel',
-        async_model = 'Designed to run inside Price Monitor effil workers'
+        async_model = 'Persistent Price Monitor effil worker sessions'
     }
 end
 
