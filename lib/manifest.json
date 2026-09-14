@@ -3,15 +3,15 @@
   "url": "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/refs/heads/main/lib/init.lua",
   "chatSearch": {
     "highlight": {
-      "version": "8.1.1",
+      "version": "8.1.2",
       "url": "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/refs/heads/main/lib/ChatSearchHighlight.dll"
     },
     "enhancer": {
-      "version": "11.0.1",
+      "version": "11.0.2",
       "url": "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/refs/heads/main/lib/ChatSearchEnhancer.dll"
     },
     "richText": {
-      "version": "3.0.1",
+      "version": "3.0.2",
       "url": "https://raw.githubusercontent.com/ArtemkaSevenge/Dop/refs/heads/main/lib/ChatSearchRichText.dll"
     }
   }
