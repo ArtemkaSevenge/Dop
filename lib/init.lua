@@ -2,7 +2,7 @@ local ffi = require 'ffi'
 local bit = require 'bit'
 
 local M = {
-    _VERSION = '2.0.0',
+    _VERSION = '2.1.0',
     backend = 'WinHTTP/Schannel'
 }
 
@@ -120,18 +120,33 @@ ffi.cdef[[
     int __stdcall DeleteFileW(const wchar_t* lpFileName);
 ]]
 
+local HAS_IE_PROXY = pcall(ffi.cdef, [[
+    typedef struct {
+        int fAutoDetect;
+        wchar_t* lpszAutoConfigUrl;
+        wchar_t* lpszProxy;
+        wchar_t* lpszProxyBypass;
+    } PM_WINHTTP_IE_PROXY_CONFIG;
+    int __stdcall WinHttpGetIEProxyConfigForCurrentUser(PM_WINHTTP_IE_PROXY_CONFIG* pProxyConfig);
+    void* __stdcall GlobalFree(void* hMem);
+]])
+
 local winhttp = ffi.load('winhttp')
 local kernel32 = ffi.load('kernel32')
 
 local CP_ACP = 0
 local CP_UTF8 = 65001
 local WINHTTP_ACCESS_TYPE_DEFAULT_PROXY = 0
+local WINHTTP_ACCESS_TYPE_NAMED_PROXY = 3
 local WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY = 4
 local WINHTTP_FLAG_SECURE = 0x00800000
+local WINHTTP_OPTION_SECURE_PROTOCOLS = 84
 local WINHTTP_OPTION_DECOMPRESSION = 118
 local WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL = 133
 local WINHTTP_OPTION_IPV6_FAST_FALLBACK = 140
 local WINHTTP_PROTOCOL_FLAG_HTTP2 = 0x00000001
+local WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_2 = 0x00000800
+local WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_3 = 0x00002000
 local WINHTTP_DECOMPRESSION_FLAG_GZIP = 0x00000001
 local WINHTTP_DECOMPRESSION_FLAG_DEFLATE = 0x00000002
 local WINHTTP_QUERY_STATUS_CODE = 19
@@ -144,6 +159,23 @@ local MOVEFILE_WRITE_THROUGH = 0x00000008
 local DEFAULT_USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
 local DEFAULT_TIMEOUT_SECONDS = 15
 local DEFAULT_MAX_BODY_SIZE = 64 * 1024 * 1024
+
+local RETRYABLE_CODES = {
+    [12030] = true,
+    [12152] = true,
+    [12157] = true,
+    [12175] = true
+}
+
+local IDEMPOTENT_METHODS = {
+    GET = true,
+    HEAD = true,
+    OPTIONS = true
+}
+
+local READ_BUFFER_SIZE = 64 * 1024
+local READ_BUFFER = ffi.new('unsigned char[?]', READ_BUFFER_SIZE)
+local READ_COUNT = ffi.new('unsigned long[1]', 0)
 
 local ERROR_CODES = {
     [12002] = 'HTTP_TIMEOUT',
@@ -374,9 +406,10 @@ local function close_handle(handle)
 end
 
 local STATE = {
-    session = nil,
+    sessions = {},
     user_agent = nil,
-    connections = {}
+    connections = {},
+    prefer_http1 = {}
 }
 
 local function close_connections()
@@ -388,48 +421,86 @@ end
 
 local function close_session()
     close_connections()
-    close_handle(STATE.session)
-    STATE.session = nil
+    for mode, handle in pairs(STATE.sessions) do
+        close_handle(handle)
+        STATE.sessions[mode] = nil
+    end
     STATE.user_agent = nil
 end
 
-local function ensure_session(user_agent)
-    user_agent = tostring(user_agent or DEFAULT_USER_AGENT)
-    if not is_null(STATE.session) and STATE.user_agent == user_agent then
-        return STATE.session
+local function ie_proxy_settings()
+    if not HAS_IE_PROXY then return nil end
+    local config = ffi.new('PM_WINHTTP_IE_PROXY_CONFIG[1]')
+    local ok, result = pcall(winhttp.WinHttpGetIEProxyConfigForCurrentUser, config)
+    if not ok or result == 0 then return nil end
+    local entry = config[0]
+    local proxy = not is_null(entry.lpszProxy) and from_wide(entry.lpszProxy) or ''
+    local bypass = not is_null(entry.lpszProxyBypass) and from_wide(entry.lpszProxyBypass) or ''
+    for _, pointer in ipairs({ entry.lpszAutoConfigUrl, entry.lpszProxy, entry.lpszProxyBypass }) do
+        if not is_null(pointer) then kernel32.GlobalFree(pointer) end
     end
-    close_session()
+    if proxy == '' then return nil end
+    return to_wide(proxy), bypass ~= '' and to_wide(bypass) or nil
+end
+
+local function open_session(user_agent_w)
+    local session = winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, nil, nil, 0)
+    if not is_null(session) then return session end
+    local proxy_w, bypass_w = ie_proxy_settings()
+    if proxy_w then
+        session = winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_NAMED_PROXY, proxy_w, bypass_w, 0)
+        if not is_null(session) then return session end
+    end
+    return winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, nil, nil, 0)
+end
+
+local function enable_modern_tls(session)
+    local protocols = ffi.new('unsigned long[1]', bit.bor(WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_2, WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_3))
+    if winhttp.WinHttpSetOption(session, WINHTTP_OPTION_SECURE_PROTOCOLS, protocols, ffi.sizeof(protocols)) ~= 0 then return end
+    protocols[0] = WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_2
+    winhttp.WinHttpSetOption(session, WINHTTP_OPTION_SECURE_PROTOCOLS, protocols, ffi.sizeof(protocols))
+end
+
+local function ensure_session(user_agent, mode)
+    user_agent = tostring(user_agent or DEFAULT_USER_AGENT)
+    if STATE.user_agent ~= user_agent then close_session() end
+    local cached = STATE.sessions[mode]
+    if not is_null(cached) then return cached end
     local user_agent_w = to_wide(user_agent)
     if not user_agent_w then
         return nil, make_error('encoding', 0, 'HTTP_ENCODING', 'Unable to encode User-Agent')
     end
-    local session = winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, nil, nil, 0)
-    if is_null(session) then
-        session = winhttp.WinHttpOpen(user_agent_w, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, nil, nil, 0)
-    end
+    local session = open_session(user_agent_w)
     if is_null(session) then
         return nil, last_error('open_session')
     end
-    local http_protocols = ffi.new('unsigned long[1]', WINHTTP_PROTOCOL_FLAG_HTTP2)
-    winhttp.WinHttpSetOption(session, WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL, http_protocols, ffi.sizeof(http_protocols))
-    STATE.session = session
+    enable_modern_tls(session)
+    if mode == 'h2' then
+        local http_protocols = ffi.new('unsigned long[1]', WINHTTP_PROTOCOL_FLAG_HTTP2)
+        winhttp.WinHttpSetOption(session, WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL, http_protocols, ffi.sizeof(http_protocols))
+    end
+    STATE.sessions[mode] = session
     STATE.user_agent = user_agent
     return session
 end
 
-local function connection_key(parsed)
+local function host_key(parsed)
     return parsed.scheme .. '://' .. parsed.host:lower() .. ':' .. tostring(parsed.port)
 end
 
-local function drop_connection(parsed)
-    local key = connection_key(parsed)
+local function connection_key(parsed, mode)
+    return mode .. '|' .. host_key(parsed)
+end
+
+local function drop_connection(parsed, mode)
+    local key = connection_key(parsed, mode)
     local handle = STATE.connections[key]
     if not is_null(handle) then close_handle(handle) end
     STATE.connections[key] = nil
 end
 
-local function ensure_connection(parsed, session)
-    local key = connection_key(parsed)
+local function ensure_connection(parsed, session, mode)
+    local key = connection_key(parsed, mode)
     local cached = STATE.connections[key]
     if not is_null(cached) then return cached end
     local host_w = to_wide(parsed.host)
@@ -449,12 +520,11 @@ local function read_response(request, max_body_size, sink)
     if max_body_size <= 0 then max_body_size = DEFAULT_MAX_BODY_SIZE end
     local chunks = sink and nil or {}
     local total = 0
-    local buffer_size = 64 * 1024
-    local buffer = ffi.new('unsigned char[?]', buffer_size)
-    local read = ffi.new('unsigned long[1]', 0)
+    local buffer = READ_BUFFER
+    local read = READ_COUNT
     while true do
         read[0] = 0
-        local ok = winhttp.WinHttpReadData(request, buffer, buffer_size, read)
+        local ok = winhttp.WinHttpReadData(request, buffer, READ_BUFFER_SIZE, read)
         if ok == 0 then
             return nil, last_error('read')
         end
@@ -479,18 +549,14 @@ local function read_response(request, max_body_size, sink)
     return table.concat(chunks), total
 end
 
-local function perform_request(method, url, args, sink)
-    args = args or {}
-    method = tostring(method or 'GET'):upper()
-    local parsed, parse_err = parse_url(url)
-    if not parsed then return nil, parse_err end
+local function perform_request(method, url, parsed, args, sink, mode)
     local timeout_seconds = tonumber(args.timeout) or DEFAULT_TIMEOUT_SECONDS
     if timeout_seconds <= 0 then timeout_seconds = DEFAULT_TIMEOUT_SECONDS end
     local timeout_ms = math.floor(timeout_seconds * 1000)
-    local session, session_err = ensure_session(args.user_agent)
+    local session, session_err = ensure_session(args.user_agent, mode)
     if not session then return nil, session_err end
     winhttp.WinHttpSetTimeouts(session, timeout_ms, timeout_ms, timeout_ms, timeout_ms)
-    local connect, connect_err = ensure_connection(parsed, session)
+    local connect, connect_err = ensure_connection(parsed, session, mode)
     if not connect then return nil, connect_err end
     local method_w = to_wide(method)
     local target_w = to_wide(parsed.target)
@@ -500,13 +566,13 @@ local function perform_request(method, url, args, sink)
     local flags = parsed.secure and WINHTTP_FLAG_SECURE or 0
     local request = winhttp.WinHttpOpenRequest(connect, method_w, target_w, nil, nil, nil, flags)
     if is_null(request) then
-        drop_connection(parsed)
+        drop_connection(parsed, mode)
         return nil, last_error('open_request')
     end
-    local function fail(err, reset_connection)
+    local function fail(err, reset_connection, retryable)
         close_handle(request)
-        if reset_connection then drop_connection(parsed) end
-        return nil, err
+        if reset_connection then drop_connection(parsed, mode) end
+        return nil, err, retryable and RETRYABLE_CODES[err.native_code] == true
     end
     winhttp.WinHttpSetTimeouts(request, timeout_ms, timeout_ms, timeout_ms, timeout_ms)
     local fast_fallback = ffi.new('int[1]', 1)
@@ -525,10 +591,10 @@ local function perform_request(method, url, args, sink)
     local body_ptr = #body > 0 and ffi.cast('const char*', body) or nil
     local sent = winhttp.WinHttpSendRequest(request, header_w, header_w and (header_chars or 0) or 0, body_ptr, #body, #body, 0)
     if sent == 0 then
-        return fail(last_error('send', nil, { host = parsed.host, port = parsed.port }), true)
+        return fail(last_error('send', nil, { host = parsed.host, port = parsed.port }), true, true)
     end
     if winhttp.WinHttpReceiveResponse(request, nil) == 0 then
-        return fail(last_error('receive', nil, { host = parsed.host, port = parsed.port }), true)
+        return fail(last_error('receive', nil, { host = parsed.host, port = parsed.port }), true, IDEMPOTENT_METHODS[method] == true)
     end
     local status_code, status_err = query_status_code(request)
     if not status_code then return fail(status_err, true) end
@@ -553,8 +619,23 @@ local function perform_request(method, url, args, sink)
     }
 end
 
+local function request_with_fallback(method, url, args, sink)
+    args = args or {}
+    method = tostring(method or 'GET'):upper()
+    local parsed, parse_err = parse_url(url)
+    if not parsed then return nil, parse_err end
+    local key = host_key(parsed)
+    local mode = STATE.prefer_http1[key] and 'h1' or 'h2'
+    local response, err, retryable = perform_request(method, url, parsed, args, sink, mode)
+    if response or not retryable or mode == 'h1' then return response, err end
+    local fallback = perform_request(method, url, parsed, args, sink, 'h1')
+    if not fallback then return nil, err end
+    STATE.prefer_http1[key] = true
+    return fallback
+end
+
 function M.request(method, url, args)
-    return perform_request(method, url, args or {}, nil)
+    return request_with_fallback(method, url, args, nil)
 end
 
 local function move_atomic(temp_path, path)
@@ -586,7 +667,7 @@ function M.download(url, path, args)
         return nil, make_error('file', 0, 'HTTP_FILE', tostring(open_err or 'Unable to open temporary file'))
     end
     local keep_chunks = args.keep_body == true and {} or nil
-    local response, request_err = perform_request(args.method or 'GET', url, args, function(chunk)
+    local response, request_err = request_with_fallback(args.method or 'GET', url, args, function(chunk)
         local ok_write, write_err = file:write(chunk)
         if not ok_write then
             return nil, make_error('file', 0, 'HTTP_FILE', tostring(write_err or 'Unable to write file'))
@@ -632,6 +713,7 @@ end
 
 function M.reset()
     close_session()
+    STATE.prefer_http1 = {}
     return true
 end
 
